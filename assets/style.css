@@ -1,0 +1,142 @@
+/* my colors #687864-earthie green, #003f5c-deepBlue,
+5085A5-Lighter-blue, #8FC1E3-very pail blue, #f7f9FB-   */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300|Roboto+Slab&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	color: #687864;
+}
+
+h2 {
+	font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #003f5c;
+}
+#logo {
+	float: left;
+	font-size: 250%;
+	padding-left: 25px;
+}
+#menu {
+	font-size: 110%;
+	list-style-type: none;
+	letter-spacing: 4px;
+	text-align: right;
+}
+
+#logo,
+#menu {
+	line-height: 75px;
+}
+
+#menu li {
+	display: inline-block;
+	text-align: center;
+	/* float:right; */
+	margin-right: 30px;
+}
+
+#menu a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#menu a:hover {
+	border-bottom: 1px solid #687864;
+}
+
+.active {
+	border-bottom: 1px solid #687864;
+}
+
+#hero-image {
+	height: 600px;
+	width: 100%;
+	background: url('./images/greystones-harbour.png') no-repeat center center;
+
+	animation-name: hero-zoom;
+	animation-fill-mode: forwards;
+	animation-duration: 5s;
+}
+
+#hero-outer {
+	height: 600px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+@keyframes hero-zoom {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.1);
+	}
+}
+
+#cover-text,
+cover-text h2 {
+	color: #8fc1e3;
+}
+
+#cover-text {
+	font-size: 130%;
+	font-family: 'Roboto Slab';
+	letter-spacing: 2px;
+	text-transform: uppercase;
+
+	width: 350px;
+	height: 150px;
+	padding-top: 10px;
+	padding-left: 10px;
+	background-color: rgba(189, 106, 11, 0.4);
+	bottom: 110px;
+	right: 400px;
+
+	position: absolute;
+}
+
+.first-info {
+	padding-left: 5px;
+	padding-right: 25px;
+	/* margin-left: 1px;
+	margin-right: 1px; */
+	text-align: center;
+}
+
+.about-greystones,
+.contact-me {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+/*Social Links*/
+#social-links {
+	font-size: 110%;
+	list-style-type: none;
+	letter-spacing: 4px;
+	text-align: center;
+}
+
+#social-links li {
+	display: inline-block;
+	text-align: center;
+	margin-right: 30px;
+}
+
+#social-links a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#social-links a:hover {
+	border-bottom: 1px solid #687864;
+}
