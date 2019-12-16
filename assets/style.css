@@ -18,6 +18,12 @@ h2 {
 	letter-spacing: 4px;
 	color: #003f5c;
 }
+
+img {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+}
 #logo {
 	float: left;
 	font-size: 250%;
@@ -56,13 +62,15 @@ h2 {
 }
 
 #hero-image {
-	height: 600px;
+	height: 400px;
 	width: 100%;
-	background: url('./images/greystones-harbour.png') no-repeat center center;
+	/* background: url('./images/greystones-harbour.png') no-repeat center center; */
+	background: url('./images/greystones-at-dawn.png') no-repeat center center;
 
 	animation-name: hero-zoom;
 	animation-fill-mode: forwards;
 	animation-duration: 5s;
+	padding-bottom: 20px;
 }
 
 #hero-outer {
@@ -103,21 +111,6 @@ cover-text h2 {
 	position: absolute;
 }
 
-.first-info {
-	padding-left: 5px;
-	padding-right: 25px;
-	/* margin-left: 1px;
-	margin-right: 1px; */
-	text-align: center;
-}
-
-.about-greystones,
-.contact-me {
-	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 20px;
-}
-
 /*Social Links*/
 #social-links {
 	font-size: 110%;
@@ -139,4 +132,20 @@ cover-text h2 {
 
 #social-links a:hover {
 	border-bottom: 1px solid #687864;
+}
+
+@media (max-width: 768px) {
+	background: url('greystones-cove.jpg') no-repeat center top;
+}
+
+/*--------Back Ground Colors*/
+
+.bg-color-about-me {
+	background-color: #5085a5;
+	padding-top: 50px;
+}
+
+.bg-color-what-i-do {
+	background-color: #5085a5;
+	padding-top: 50px;
 }
