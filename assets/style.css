@@ -17,6 +17,7 @@ h2 {
 	text-transform: uppercase;
 	letter-spacing: 4px;
 	color: #003f5c;
+	text-align: center;
 }
 
 img {
@@ -141,11 +142,25 @@ cover-text h2 {
 /*--------Back Ground Colors*/
 
 .bg-color-about-me {
-	background-color: #5085a5;
+	background-color: ;
 	padding-top: 50px;
 }
 
 .bg-color-what-i-do {
-	background-color: #5085a5;
+	background-color: ;
 	padding-top: 50px;
+}
+
+.bg-color-contact-me
+
+.bg-color-about-greystones
+/*--------Content*/
+.content-holder {
+	font-size: 20px;
+	margin: 2px;
+	width: 955px;
+	color: #687864;
+	display: block;
+	text-align: center;
+	padding: 20px;
 }
