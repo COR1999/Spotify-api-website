@@ -135,9 +135,6 @@ cover-text h2 {
 	border-bottom: 1px solid #687864;
 }
 
-@media (max-width: 768px) {
-	background: url('greystones-cove.jpg') no-repeat center top;
-}
 
 /*--------Back Ground Colors*/
 
@@ -156,11 +153,44 @@ cover-text h2 {
 .bg-color-about-greystones
 /*--------Content*/
 .content-holder {
-	font-size: 20px;
-	margin: 2px;
+	font-size: 16px;
+	margin-left: 50px;
+    margin-right: 50px;
 	width: 955px;
 	color: #687864;
 	display: block;
 	text-align: center;
-	padding: 20px;
+	padding-left: 20px;
 }
+
+.content-holder h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+    #hero-image {
+	height: 400px;
+	width: 100%;
+	/* background: url('./images/greystones-harbour.png') no-repeat center center; */
+	background: url('./images/mobile-greystones.png') no-repeat center center;
+
+	animation-name: hero-zoom;
+	animation-fill-mode: forwards;
+	animation-duration: 5s;
+	padding-bottom: 20px;
+    }
+    #hero-outer {
+	    height: 600px;
+	    width: 100%;
+	    overflow: hidden;
+    	position: relative;
+    }
+}
+/* .small-hero{
+    height: 300px;
+    width: auto;
+    background: url("./images/mobile-greystones.jpg") no-repeat center none;
+} */
