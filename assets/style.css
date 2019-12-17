@@ -11,7 +11,7 @@ h2 {
 	font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 4px;
-	color: #003f5c;
+	color: #000000;
 	text-align: center;
 }
 
@@ -84,15 +84,27 @@ img {
 .about-cian-image {
 	height: 500px;
 }
-.bottom-middle {
-	position: absolute;
-	top: 75%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+.about-cian-container:hover {
 }
 
 .container {
 	position: relative;
 	margin: 0;
 	padding: 0;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: auto;
+	opacity: 0;
+	transition: 0.5s ease;
+	background-color: #003f5c;
+}
+.container:hover .overlay {
+	opacity: 0.5;
+	cursor: pointer;
 }
