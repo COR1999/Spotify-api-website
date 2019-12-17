@@ -1,93 +1,6 @@
 /* my colors #687864-earthie green, #003f5c-deepBlue,
 5085A5-Lighter-blue, #8FC1E3-very pail blue, #f7f9FB-   */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300|Roboto+Slab&display=swap');
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-}
 
 body {
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -122,21 +35,6 @@ img {
 	border-bottom: 1px solid #687864;
 }
 
-#hero-image {
-	height: 400px;
-	width: 100%;
-	padding-bottom: 20px;
-	margin-top: 20px;
-	background: url('./images/greystones-at-dawn.png') no-repeat center center;
-}
-
-#hero-outer {
-	height: 600px;
-	width: 100%;
-	overflow: hidden;
-	position: relative;
-}
-
 /*Social Links*/
 #social-links {
 	font-size: 110%;
@@ -163,39 +61,38 @@ img {
 /*--------Back Ground Colors*/
 
 /*--------Content*/
-
-.about-me-content-holder,
-.contact-me-content-holder {
-	/* display: flex;
-	justify-content: center;
-	align-items: center;
-	position: relative; */
+#about-cian-box {
+	color: #003f5c;
+	border: 1px solid #003f5c;
+	background-color: rgba(0, 0, 0, 0);
+}
+#contact-cian-box {
+	color: #003f5c;
+	border: 1px solid #003f5c;
+	background-color: rgba(0, 0, 0, 0);
 }
 
-.project-one-holder,
-.project-two-holder,
-.project-three-holder {
-	height: 600px;
-	width: 100%;
-	overflow: hidden;
-	position: relative;
-	background-color: red;
+#contact-cian-box h2 {
+	font-weight: 800;
+}
+#contact-cian-box p {
+	font-weight: 800;
 }
 
 /* Images*/
-#about-me-image {
-	/* height: 400px; */
-	/* width: 100%; */
-	background: url('./images/sample-image.jpg') no-repeat center center;
+
+.about-cian-image {
+	height: 500px;
+}
+.bottom-middle {
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-#contact-me-image {
-	height: 400px;
-	width: 100%;
-	background: url('./images/sample-image.jpg') no-repeat center center;
+.container {
+	position: relative;
+	margin: 0;
+	padding: 0;
 }
-
-
-
-
-
