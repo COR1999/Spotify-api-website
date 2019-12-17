@@ -23,102 +23,138 @@
 	</head>
 	<body>
 		<header>
-			<!--Header Section taken from the love running videos-->
-			<a href="index.html">
-				<h2 id="logo">Cian O'Rourke</h2>
-			</a>
-			<nav>
-				<ul id="menu">
-					<li>
-						<a class="active" href="index.html">Home</a>
-					</li>
-					<li>
-						<a href="about.html">About</a>
-					</li>
-					<li>
-						<a href="#">Contact</a>
-					</li>
-				</ul>
+			<!--Navbar-->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand" id="logo" href="index.html"
+							>Cian O'Rourke</a
+						>
+					</div>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="index.html"
+									>Home <span class="sr-only">(current)</span></a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="about.html">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</nav>
 		</header>
-		<section id="hero-outer container-fluid" >
-			<div class="row no-gutters">
-			<!--The hero section taken from love running videos and Changed-->
-			<div class="col">
-			<div id="hero-image"></div>
-			<div id="cover-text" >
-				<h2 >Cian O'Rourke</h2>
-				<h3 >Full Stack Web Developer</h3>
-			</div>
-			</div>
-			</div>
-		</section>
-		<section class="container-fluid">
-				<div class="row ">
-					<!-- <div class="col col-1 d-none d-lg-block">
-					</div> -->
-					<div class="col col-6 about-me-content-holder">
-						<h2>About me <i class="fa fa-comments"></i></h2>
-						<p>
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur
-							adipisci quia inventore eveniet sequi a molestias ratione!
-							Sapiente pariatur recusandae voluptates id cum a quas iste debitis
-							quisquam, hic doloremque.
-						</p>
-					</div>
-					<div class="col col-6 what-i-do-content-holder">
-						<h2>What i do <i class="fa fa-cogs"></i></h2>
-						<p>
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-							Temporibus optio dolorem ea ratione vero libero sapiente quas
-							corporis reprehenderit repudiandae. Iste commodi a eum enim non
-							reiciendis voluptatem eveniet. Voluptatem?
-						</p>
-					</div>
-					<!-- <div class="col col-1 d-none d-lg-block">
-					</div> -->
-				</div>
-				<div class="row ">
-					<!-- <div class="col col-1">
-					</div> -->
-					<div class="col col-6 project-content-holder">
-						<h2>If You have a project in mind <i class="fa fa-sticky-note"></i></i></h2>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Iusto magni, ad tenetur doloribus soluta quisquam nobis dignissimos consectetur doloremque? Sit,
-							libero exercitationem mollitia repellendus at molestiae deleniti ex nesciunt? Consectetur.</p>
-						<button type="submit" >Contact Me!</button>
-					</div>
-					<div class="col col-6 about-greystones-content-holder">
-						<h2>About Greystones <i class="fa fa-swimmer"></i></h2>
-						<!--text from https://en.wikipedia.org/wiki/Greystones-->
-						<p>The town was named after a half mile or one-kilometre stretch of grey stones between two beaches on the sea front. The harbour area and Greystones railway station are at the northern and southern ends respectively. The North Beach, which begins at the harbour, is a stony beach, and some of its length is overlooked by the southern cliffs of Bray Head, which are subject to erosion. The South Beach is a broad sandy beach about one kilometre long. It is a Blue Flag beach and receives many visitors and tourists, mainly in the summer.</p>
-					</div>
-					<!-- <div class="col col-1">
-					</div> -->
+		<section>
+			<div  class="d-flex">
+				
+				<div class="w-auto">
+					<img
+						src="./assets/images/greystones-at-dawn.png"
+						class="img-fluid"
+						alt="..."
+					/>
 				</div>
 		</section>
+		<section>
+			<div  class="d-flex">
+				
+				<div class="w-50 about-me-content-holder">
+					<img
+					src="./assets/images/sample-image.jpg"
+					class="img-fluid"
+					alt="..."
+					/>
+				</div>
+				<div class="w-50 contact-me-content-holder">
+					<img
+					src="./assets/images/sample-image.jpg"
+					class="img-fluid"
+					alt="..."
+					/>
+				</div>
+			</div>
+			<div class="d-flex">
+			<div class="w-50 about-me-content-holder">
+				<img
+				src="./assets/images/sample-image.jpg"
+				class="img-fluid"
+				alt="..."
+				/>
+			<!-- <div id="about-me-image" class="img-fluid"></div> -->
+			</div>
+			<div class="w-50 contact-me-content-holder">
+				<img
+				src="./assets/images/sample-image.jpg"
+				class="img-fluid"
+				alt="..."
+				/>
+			</div>
+			<div class="w-50 contact-me-content-holder">
+				<img
+				src="./assets/images/sample-image.jpg"
+				class="img-fluid"
+				alt="..."
+				/>
+			</div>
+		</div>
+		</section>
+
 		<footer class="container-fluid">
-				<div class="container">
-						<div class="row">
-						<div class="col">
-							<ul id="social-links">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<ul id="social-links">
 							<li>
-							<a href="https://github.com/COR1999">
-								<i class="fa fa-github"></i
-							></a>
-						</li>
-						<li>
-							<a href="https://linkedin.com">
-								<i class="fa fa-linkedin"></i></a>
-						</li>
-						<li>
-							<a href="https://facebook.com">
-								<i class="fa fa-facebook"></i></a>
-						</li>
-					</ul>
-					</div>
+								<a href="https://github.com/COR1999">
+									<i class="fa fa-github"></i
+								></a>
+							</li>
+							<li>
+								<a href="https://linkedin.com">
+									<i class="fa fa-linkedin"></i
+								></a>
+							</li>
+							<li>
+								<a href="https://facebook.com">
+									<i class="fa fa-facebook"></i
+								></a>
+							</li>
+						</ul>
 					</div>
 				</div>
+			</div>
 		</footer>
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+			crossorigin="anonymous"
+		></script>
 	</body>
 </html>
