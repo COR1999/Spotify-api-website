@@ -64,69 +64,22 @@ img {
 /*--------Back Ground Colors*/
 
 /*--------Content*/
-#about-cian-box {
-	color: #003f5c;
-	border: 1px solid #003f5c;
-	background-color: rgba(0, 0, 0, 0);
-	height: auto;
-	width: auto;
+#best-seller-header {
+	list-style-type: none;
+	letter-spacing: 4px;
 	text-align: center;
-	position: relative;
-	float: left;
-	top: 75%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	margin-left: 70px;
+	padding-top: 10px;
 }
 
-#contact-cian-box {
-	color: #003f5c;
-	border: 1px solid #003f5c;
-	background-color: rgba(0, 0, 0, 0);
-	height: auto;
-	width: auto;
+#best-seller-list {
+	font-size: 110%;
+	list-style-type: none;
+	letter-spacing: 4px;
 	text-align: center;
-	position: relative;
-	float: left;
-	top: 75%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-#contact-cian-box,
-#about-cian-box,
-h2 {
-	font-weight: 800;
-	color: #003f5c;
-}
-#contact-cian-box,
-#about-cian-box,
-p {
-	font-weight: 800;
-	color: #7a7a7a;
 }
 
 /* Images*/
-#section1-outer {
-	height: 600px;
-	width: auto;
-	overflow: hidden;
-	position: relative;
-}
-.contact-cian-image {
-	height: 800px;
-	width: auto;
-	display: block;
-
-	background: url('./images/') no-repeat center center;
-}
-
-.about-cian-image {
-	height: 800px;
-	width: auto;
-	display: block;
-
-	background: url('./images/') no-repeat center center;
-}
 #hero-outer {
 	height: 600px;
 	width: auto;
@@ -142,43 +95,11 @@ p {
 	background-size: cover;
 }
 
+/*Album Images*/
+
+.album-artwork {
+	height: 50px;
+	width: auto;
+}
+
 /*Overlays*/
-.container {
-	position: relative;
-	margin: 0;
-	padding: 0;
-}
-
-.about-cian-overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: auto;
-	opacity: 0;
-	transition: 0.5s ease-in-out;
-	background-color: rgba(0, 0, 0, 0);
-}
-
-.container:hover .about-cian-overlay {
-	opacity: 1;
-	cursor: pointer;
-}
-
-.contact-cian-overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: auto;
-	opacity: 0;
-	transition: 0.5s ease-in-out;
-	background-color: rgba(0, 0, 0, 0);
-}
-
-.container:hover .contact-cian-overlay {
-	opacity: 1;
-	cursor: pointer;
-}
