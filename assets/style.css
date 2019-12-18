@@ -64,15 +64,15 @@ img {
 /*--------Back Ground Colors*/
 
 /*--------Content*/
-#best-seller-header {
+#best-seller-header,
+#favourite-header {
 	list-style-type: none;
 	letter-spacing: 4px;
 	text-align: center;
-	margin-left: 70px;
 	padding-top: 10px;
 }
-
-#best-seller-list {
+.favourite-list,
+.best-seller-list {
 	font-size: 110%;
 	list-style-type: none;
 	letter-spacing: 4px;
@@ -100,6 +100,8 @@ img {
 .album-artwork {
 	height: 50px;
 	width: auto;
+	margin-left: 50px;
+	margin-top: 4px;
 }
 
 /*Overlays*/
