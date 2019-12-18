@@ -1,10 +1,13 @@
 /* my colors #687864-earthie green, #003f5c-deepBlue,
 5085A5-Lighter-blue, #8FC1E3-very pail blue, #f7f9FB-   */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300|Roboto+Slab&display=swap');
-
+html {
+	overflow-x: hidden;
+}
 body {
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 	color: #687864;
+	overflow-x: hidden;
 }
 
 h2 {
@@ -65,35 +68,88 @@ img {
 	color: #003f5c;
 	border: 1px solid #003f5c;
 	background-color: rgba(0, 0, 0, 0);
+	height: auto;
+	width: auto;
+	text-align: center;
+	position: relative;
+	float: left;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
+
 #contact-cian-box {
 	color: #003f5c;
 	border: 1px solid #003f5c;
 	background-color: rgba(0, 0, 0, 0);
+	height: auto;
+	width: auto;
+	text-align: center;
+	position: relative;
+	float: left;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-#contact-cian-box h2 {
+#contact-cian-box,
+#about-cian-box,
+h2 {
 	font-weight: 800;
+	color: #003f5c;
 }
-#contact-cian-box p {
+#contact-cian-box,
+#about-cian-box,
+p {
 	font-weight: 800;
+	color: #7a7a7a;
 }
 
 /* Images*/
+#section1-outer {
+	height: 600px;
+	width: auto;
+	overflow: hidden;
+	position: relative;
+}
+.contact-cian-image {
+	height: 800px;
+	width: auto;
+	display: block;
+
+	background: url('./images/') no-repeat center center;
+}
 
 .about-cian-image {
-	height: 500px;
+	height: 800px;
+	width: auto;
+	display: block;
+
+	background: url('./images/') no-repeat center center;
 }
-.about-cian-container:hover {
+#hero-outer {
+	height: 600px;
+	width: auto;
+	overflow: hidden;
+	position: relative;
+}
+#hero-image {
+	height: 600px;
+	width: auto;
+	background-image: url('./images/o-VINYL-facebook.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
+/*Overlays*/
 .container {
 	position: relative;
 	margin: 0;
 	padding: 0;
 }
 
-.overlay {
+.about-cian-overlay {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -101,10 +157,28 @@ img {
 	right: 0;
 	height: auto;
 	opacity: 0;
-	transition: 0.5s ease;
-	background-color: #003f5c;
+	transition: 0.5s ease-in-out;
+	background-color: rgba(0, 0, 0, 0);
 }
-.container:hover .overlay {
-	opacity: 0.5;
+
+.container:hover .about-cian-overlay {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.contact-cian-overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: auto;
+	opacity: 0;
+	transition: 0.5s ease-in-out;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.container:hover .contact-cian-overlay {
+	opacity: 1;
 	cursor: pointer;
 }
