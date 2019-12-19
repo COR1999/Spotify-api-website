@@ -10,6 +10,12 @@ body {
 	overflow-x: hidden;
 }
 
+div {
+	-webkit-background-size: contain no-repeat;
+	-moz-background-size: contain no-repeat;
+	-o-background-size: contain no-repeat;
+	background-size: contain no-repeat;
+}
 h2 {
 	font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
@@ -100,13 +106,45 @@ img {
 .album-artwork {
 	height: 50px;
 	width: auto;
-	margin-left: 10px;
+	margin-left: 5px;
 	margin-top: 4px;
 }
 
-.table-image {
-	td, th {
-	  vertical-align: middle;
-	}
-  }
 /*Overlays*/
+
+/*Tables*/
+
+table {
+	/* border: 1px solid black; */
+	table-layout: fixed;
+	/* width: 300px; */
+	/* text-align: center; */
+	/* padding: 5px 5px 5px 5px; */
+	/* float: left; */
+	/* font-size: 20px; */
+	/* max-width: 400px; */
+	margin-top: 10px;
+}
+
+.table td,
+.table th {
+	padding: 0.75rem;
+	vertical-align: top;
+	border-top: 1px solid #dee2e6;
+	max-width: 200px;
+	max-height: 200px;
+	/* overflow: hidden; */
+}
+
+.table-outer {
+	display: inline-table;
+}
+.table-head {
+	font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+	font-weight: 800;
+}
+
+.table-content {
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-weight: 600;
+}
