@@ -100,8 +100,13 @@ img {
 .album-artwork {
 	height: 50px;
 	width: auto;
-	margin-left: 50px;
+	margin-left: 10px;
 	margin-top: 4px;
 }
 
+.table-image {
+	td, th {
+	  vertical-align: middle;
+	}
+  }
 /*Overlays*/
