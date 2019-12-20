@@ -1,12 +1,11 @@
-/* my colors #687864-earthie green, #003f5c-deepBlue,
-5085A5-Lighter-blue, #8FC1E3-very pail blue, #f7f9FB-   */
+/* my colors #C34424 Brick Red, #6A4329 Dark olive Green, #E2D5BA Tan, #2C1F13 Darker olive Green, #9B6741 Sienna*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300|Roboto+Slab&display=swap');
 html {
 	overflow-x: hidden;
 }
 body {
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-	color: #687864;
+	color: #c34424;
 	overflow-x: hidden;
 }
 
@@ -20,8 +19,15 @@ h2 {
 	font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 4px;
-	color: #000000;
+	color: #c34424;
 	text-align: center;
+}
+
+p {
+	font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+	color: #6a4329;
+	text-align: center;
+	letter-spacing: 2px;
 }
 
 img {
@@ -32,7 +38,7 @@ img {
 
 #logo {
 	float: left;
-	font-size: 250%;
+	font-size: 150%;
 	padding-left: 25px;
 }
 
@@ -72,6 +78,24 @@ img {
 }
 
 /*--------Back Ground Colors*/
+.bg-about-favourites {
+	background-color: #e2d5ba;
+}
+
+.bg-best-sellers-table {
+	background-color: #e2d5ba;
+}
+.bg-best-sellers-header {
+	background-color: #e2d5ba;
+}
+
+.bg-my-favourite-table {
+	background-color: #e2d5ba;
+}
+
+.bg-my-favourite-header {
+	background-color: #e2d5ba;
+}
 
 /*--------Content*/
 #best-seller-header,
@@ -150,7 +174,7 @@ img {
 }
 
 .table-content {
-	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
 	font-weight: 600;
 }
 
@@ -164,7 +188,7 @@ img {
 .wrapper-for-card h2 {
 	font-size: 28px;
 	font-weight: 600;
-	color: #687864;
+	color: #c34424;
 	margin-top: 10px;
 }
 .wrapper-for-card p {
@@ -173,4 +197,6 @@ img {
 	margin-top: 10px;
 	margin-right: 50px;
 	padding-left: 10px;
+	color: #6a4329;
+	font-weight: 400;
 }
