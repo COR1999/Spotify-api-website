@@ -34,38 +34,19 @@ img {
 	width: auto;
 	max-width: 100%;
 	height: auto;
-}
-
-#logo {
-	/* float: left;
-	font-size: 150%;
-	padding-left: 25px;
-	color: #c34424; */
-	/* background-image: url('./images/f2ee482f-5de5-47e8-86f6-4076f92c873c_200x200.png'); */
-	/* background-repeat: no-repeat; */
-	/* background-position: center; */
-	/* margin-left: 5px; */
-	/* margin-top: 4px; */
+	display: block;
 }
 
 #logo img {
 	height: 100px;
 	width: auto;
 }
-#logo h6 {
-	float: right;
-	text-align: center;
-	line-height: 75px;
-	color: inherit;
-}
 #logo {
 	line-height: 75px;
 }
-
 .active {
 	border-bottom: 1px solid #c34424;
 }
-
 .row-height-600 {
 	height: 600;
 }
