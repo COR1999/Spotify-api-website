@@ -1,280 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<link
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-			crossorigin="anonymous"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css?family=Baskervville&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="assets/style.css" type="text/css" />
-		<title>Vinyl</title>
-	</head>
-	<body>
-		<header>
-			<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-inverse">
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<a class="navbar-brand" id="logo" href="index.html"
-							><h2>Vinyl O'Rourke</h2></a
-						>
-					</div>
-					<button
-						class="navbar-toggler"
-						type="button"
-						data-toggle="collapse"
-						data-target="#navbarSupportedContent"
-						aria-controls="navbarSupportedContent"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					>
-						<span class="navbar-toggler-icon"></span>
-					</button>
 
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav ml-auto">
-							<li class="nav-item">
-								<a class="nav-link" href="index.html">Home </a>
-							</li>
-							<li class="nav-item  active">
-								<a class="nav-link" href="about.html"
-									>Album Details<span class="sr-only">(current)</span></a
-								>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="bestsellers.html">Best Sellers</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</header>
-		<section id="hero-outer">
-			<!-- <div class="row no-gutters"> -->
-			<!-- <div class="col"> -->
-			<div id="hero-image"></div>
-			<!-- </div> -->
-		</section>
-		<section class="container-fluid bg-about-favourites">
-			<div>
-				<h2 class="header">Album Details</h2>
-			</div>
-			<div class="row">
-				<div
-					class="col-lg-2 col-md-4 col-sm-4 wrapper-for-card"
-					id="hall-and-oats"
-				>
-					<img
-						src="./assets/images/Album-artwork/hall-and-oats.jpg"
-						class="about-image-style"
-					/>
-				</div>
-				<div class="col-lg-4 col-md-8 col-sm-8 wrapper-for-card">
-					<h2>Hall and Oats</h2>
-					<p>
-						<!--https://en.wikipedia.org/wiki/Hall_%26_Oates-->
-						Daryl Hall & John Oates, often referred to as Hall & Oates, are an
-						American pop rock duo formed in 1970 in Philadelphia. Daryl Hall is
-						generally the lead vocalist; John Oates primarily plays electric
-						guitar and provides backing vocals. The two write most of the songs
-						they perform, separately or in collaboration. They achieved their
-						greatest fame from the mid-1970s to the mid-1980s with a fusion of
-						rock and roll and rhythm and blues.
-					</p>
-				</div>
-				<div class="col-lg-2 col-sm-4 wrapper-for-card" id="fleetwood-mac">
-					<img
-						src="./assets/images/Album-artwork/fleetwood.jpg"
-						class="about-image-style"
-					/>
-				</div>
-				<div class="col-lg-4 col-sm-8 wrapper-for-card">
-					<h2>Fleetwood Mac</h2>
-					<p>
-						Fleetwood Mac are a British-American rock band, formed in London in
-						1967. They have sold more than 120 million records worldwide, making
-						them one of the world's best-selling bands. In 1998, select members
-						of Fleetwood Mac were inducted into the Rock and Roll Hall of Fame
-						and received the Brit Award for Outstanding Contribution to Music.
-					</p>
-				</div>
-			</div>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+	<link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet" />
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="assets/style.css" type="text/css" />
+	<title>Vinyl</title>
+</head>
 
-			<div class="row">
-				<div class="col-lg-2 col-sm-4 wrapper-for-card" id="pink-floyd">
-					<img
-						src="./assets/images/Album-artwork/pinkfloyd.jpg"
-						class="about-image-style"
-					/>
-				</div>
-				<div class="col-lg-4  col-sm-8 wrapper-for-card">
-					<h2>Pink Floyd</h2>
-
-					<p>
-						Pink Floyd were an English rock band formed in London in 1965.
-						Gaining a following as a psychedelic band, they were distinguished
-						for their extended compositions, sonic experimentation,
-						philosophical lyrics and elaborate live shows, and became a leading
-						band of the progressive rock genre. They are one of the most
-						commercially successful and influential groups in popular music
-						history.
-					</p>
-				</div>
-				<div class="col-lg-2 col-sm-4 wrapper-for-card" id="the-eagles">
-					<img
-						src="./assets/images/Album-artwork/eagles.jpg"
-						class="about-image-style"
-					/>
-				</div>
-				<div class="col-lg-4 col-sm-8 wrapper-for-card">
-					<h2>The Eagles</h2>
-
-					<p>
-						The Eagles are an American rock band formed in Los Angeles in 1971.
-						The founding members were Glenn Frey (guitars, vocals), Don Henley
-						(drums, vocals), Bernie Leadon (guitars, vocals) and Randy Meisner
-						(bass guitar, vocals). With five number-one singles, six number-one
-						albums, six Grammy Awards, and five American Music Awards, the
-						Eagles were one of the most successful musical acts of the 1970s.
-					</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-2 col-sm-4 wrapper-for-card" id="van-morrison">
-					<img
-						src="./assets/images/Album-artwork/vanmorrison.jpg"
-						class="about-image-style"
-					/>
-				</div>
-				<div class="col-lg-4 col-sm-8 wrapper-for-card">
-					<h2>Van Morrison</h2>
-
-					<p>
-						Sir George Ivan "Van" Morrison OBE (born 31 August 1945) is a
-						Northern Irish singer- songwriter, instrumentalist and record
-						producer. His professional career began as a teenager in the late
-						1950s playing a variety of instruments including guitar, harmonica,
-						keyboards and saxophone for various Irish showbands, covering the
-						popular hits of that time. His solo career began under the pop-hit
-						oriented guidance of Bert Berns with the release of the hit single
-						"Brown Eyed Girl" in 1967.
-					</p>
-				</div>
-				<div class="col-lg-2 col-sm-4 wrapper-for-card" id="johnny-cash">
-					<img
-						src="./assets/images/Album-artwork/johnny.jpg"
-						class="about-image-style"
-					/>
-				</div>
-				<div class="col-lg-4 col-sm-8 wrapper-for-card">
-					<h2>Johnny Cash</h2>
-
-					<p>
-						John R. "Johnny" Cash (born J. R. Cash; February 26, 1932 –
-						September 12, 2003) was an American singer, songwriter, musician,
-						actor, and author. He is one of the best-selling music artists of
-						all time, having sold more than 90 million records worldwide. His
-						genre-spanning songs and sound embraced country, rock and roll,
-						rockabilly, blues, folk, and gospel. This crossover appeal won Cash
-						the rare honor of being inducted into the Country Music, Rock and
-						Roll, and Gospel Music Halls of Fame.
-					</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-2 col-sm-4 wrapper-for-card" id="meat-loaf">
-					<img
-						src="./assets/images/Album-artwork/meatloaf.jpg"
-						class="about-image-style"
-					/>
-				</div>
-				<div class="col-lg-4 col-sm-8 wrapper-for-card">
-					<h2>Meat Loaf</h2>
-
-					<p>
-						Meat Loaf (born Marvin Lee Aday; September 27, 1947) is an American
-						singer and actor. He is noted for his powerful, wide-ranging
-						operatic voice and for his theatrical live shows. With songwriter
-						and collaborator Jim Steinman, Meat Loaf's Bat Out of Hell trilogy
-						of albums—Bat Out of Hell, Bat Out of Hell II: Back into Hell, and
-						Bat Out of Hell III: The Monster Is Loose—has sold more than 50
-						million albums worldwide. More than 40 years after its release, Bat
-						Out of Hell still sells an estimated 200,000 copies annually and
-						stayed on the charts for over nine years.
-					</p>
-				</div>
-				<div class="col-lg-2 col-sm-4 wrapper-for-card" id="simon-garfunkle">
-					<img
-						src="./assets/images/Album-artwork/simon-gar.jpg"
-						class="about-image-style"
-					/>
-				</div>
-				<div class="col-lg-4 col-sm-8 wrapper-for-card">
-					<h2>Simon & Garfunkel</h2>
-
-					<p>
-						Simon & Garfunkel were an American folk-rock duo consisting of
-						singer-songwriter Paul Simon and singer Art Garfunkel. One of the
-						best-selling music groups of the 1960s, their biggest hits—including
-						"The Sound of Silence" (1965), "Mrs. Robinson" (1968), "The Boxer"
-						(1969), and "Bridge over Troubled Water" (1970)—reached number one
-						on singles charts worldwide.
-					</p>
-				</div>
-			</div>
-		</section>
-		<footer>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light navbar-inverse bg-navbar">
 			<div class="container-fluid">
-				<div class="row">
-					<div class="col">
-						<ul id="social-links">
-							<li>
-								<a href="https://github.com/COR1999">
-									<i class="fab fa-github"></i
-								></a>
-							</li>
-							<li>
-								<a href="https://linkedin.com">
-									<i class="fab fa-linkedin-in"></i
-								></a>
-							</li>
-							<li
-								><a href="#"> <i class="fab fa-facebook-f"></i></a>
-							</li>
-						</ul>
-					</div>
+				<div class="navbar-header">
+					<a class="navbar-brand" id="logo" href="index.html">
+						<h1>Vinyl O'Rourke</h1>
+					</a>
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home </a>
+						</li>
+						<li class="nav-item  active">
+							<a class="nav-link" href="about.html">Album Details<span
+									class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="bestsellers.html">Best Sellers</a>
+						</li>
+					</ul>
 				</div>
 			</div>
-		</footer>
-		<script
-			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://kit.fontawesome.com/c9d5e7cb0f.js"
-			crossorigin="anonymous"
-		></script>
-	</body>
+		</nav>
+	</header>
+	<section id="hero-outer">
+		<!-- <div class="row no-gutters"> -->
+		<!-- <div class="col"> -->
+		<div id="hero-image"></div>
+		<!-- </div> -->
+	</section>
+	<section class="container-fluid bg-about-favourites">
+		<div>
+			<h2 class="header">Album Details</h2>
+		</div>
+		<div class="row">
+			<div class="col-lg-2 col-md-4 col-sm-4 wrapper-for-card" id="hall-and-oats">
+				<img src="./assets/images/Album-artwork/hall-and-oats.jpg" class="about-image-style"
+					alt="Artwork of Hall and Oats" />
+			</div>
+			<div class="col-lg-4 col-md-8 col-sm-8 wrapper-for-card">
+				<h2>Hall and Oats</h2>
+				<p>
+					<!--https://en.wikipedia.org/wiki/Hall_%26_Oates-->
+					Daryl Hall & John Oates, often referred to as Hall & Oates, are an
+					American pop rock duo formed in 1970 in Philadelphia. Daryl Hall is
+					generally the lead vocalist; John Oates primarily plays electric
+					guitar and provides backing vocals. The two write most of the songs
+					they perform, separately or in collaboration. They achieved their
+					greatest fame from the mid-1970s to the mid-1980s with a fusion of
+					rock and roll and rhythm and blues.
+				</p>
+			</div>
+			<div class="col-lg-2 col-sm-4 wrapper-for-card" id="fleetwood-mac">
+				<img src="./assets/images/Album-artwork/fleetwood.jpg" class="about-image-style"
+					alt="Artwork of Fleetwood Mac" />
+			</div>
+			<div class="col-lg-4 col-sm-8 wrapper-for-card">
+				<h2>Fleetwood Mac</h2>
+				<p>
+					Fleetwood Mac are a British-American rock band, formed in London in
+					1967. They have sold more than 120 million records worldwide, making
+					them one of the world's best-selling bands. In 1998, select members
+					of Fleetwood Mac were inducted into the Rock and Roll Hall of Fame
+					and received the Brit Award for Outstanding Contribution to Music.
+				</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-2 col-sm-4 wrapper-for-card" id="pink-floyd">
+				<img src="./assets/images/Album-artwork/pinkfloyd.jpg" class="about-image-style"
+					alt="Artwork of Pink Floyd" />
+			</div>
+			<div class="col-lg-4  col-sm-8 wrapper-for-card">
+				<h2>Pink Floyd</h2>
+
+				<p>
+					Pink Floyd were an English rock band formed in London in 1965.
+					Gaining a following as a psychedelic band, they were distinguished
+					for their extended compositions, sonic experimentation,
+					philosophical lyrics and elaborate live shows, and became a leading
+					band of the progressive rock genre. They are one of the most
+					commercially successful and influential groups in popular music
+					history.
+				</p>
+			</div>
+			<div class="col-lg-2 col-sm-4 wrapper-for-card" id="the-eagles">
+				<img src="./assets/images/Album-artwork/eagles.jpg" class="about-image-style" alt="Artwork of Eagles" />
+			</div>
+			<div class="col-lg-4 col-sm-8 wrapper-for-card">
+				<h2>The Eagles</h2>
+
+				<p>
+					The Eagles are an American rock band formed in Los Angeles in 1971.
+					The founding members were Glenn Frey (guitars, vocals), Don Henley
+					(drums, vocals), Bernie Leadon (guitars, vocals) and Randy Meisner
+					(bass guitar, vocals). With five number-one singles, six number-one
+					albums, six Grammy Awards, and five American Music Awards, the
+					Eagles were one of the most successful musical acts of the 1970s.
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-2 col-sm-4 wrapper-for-card" id="van-morrison">
+				<img src="./assets/images/Album-artwork/vanmorrison.jpg" class="about-image-style"
+					alt="Artwork of Van Morrison" />
+			</div>
+			<div class="col-lg-4 col-sm-8 wrapper-for-card">
+				<h2>Van Morrison</h2>
+
+				<p>
+					Sir George Ivan "Van" Morrison OBE (born 31 August 1945) is a
+					Northern Irish singer- songwriter, instrumentalist and record
+					producer. His professional career began as a teenager in the late
+					1950s playing a variety of instruments including guitar, harmonica,
+					keyboards and saxophone for various Irish showbands, covering the
+					popular hits of that time. His solo career began under the pop-hit
+					oriented guidance of Bert Berns with the release of the hit single
+					"Brown Eyed Girl" in 1967.
+				</p>
+			</div>
+			<div class="col-lg-2 col-sm-4 wrapper-for-card" id="johnny-cash">
+				<img src="./assets/images/Album-artwork/johnny.jpg" class="about-image-style"
+					alt="Artwork of Johnny Cash" />
+			</div>
+			<div class="col-lg-4 col-sm-8 wrapper-for-card">
+				<h2>Johnny Cash</h2>
+
+				<p>
+					John R. "Johnny" Cash (born J. R. Cash; February 26, 1932 –
+					September 12, 2003) was an American singer, songwriter, musician,
+					actor, and author. He is one of the best-selling music artists of
+					all time, having sold more than 90 million records worldwide. His
+					genre-spanning songs and sound embraced country, rock and roll,
+					rockabilly, blues, folk, and gospel. This crossover appeal won Cash
+					the rare honor of being inducted into the Country Music, Rock and
+					Roll, and Gospel Music Halls of Fame.
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-2 col-sm-4 wrapper-for-card" id="meat-loaf">
+				<img src="./assets/images/Album-artwork/meatloaf.jpg" class="about-image-style"
+					alt="Artwork of Meat Loaf" />
+			</div>
+			<div class="col-lg-4 col-sm-8 wrapper-for-card">
+				<h2>Meat Loaf</h2>
+
+				<p>
+					Meat Loaf (born Marvin Lee Aday; September 27, 1947) is an American
+					singer and actor. He is noted for his powerful, wide-ranging
+					operatic voice and for his theatrical live shows. With songwriter
+					and collaborator Jim Steinman, Meat Loaf's Bat Out of Hell trilogy
+					of albums—Bat Out of Hell, Bat Out of Hell II: Back into Hell, and
+					Bat Out of Hell III: The Monster Is Loose—has sold more than 50
+					million albums worldwide. More than 40 years after its release, Bat
+					Out of Hell still sells an estimated 200,000 copies annually and
+					stayed on the charts for over nine years.
+				</p>
+			</div>
+			<div class="col-lg-2 col-sm-4 wrapper-for-card" id="simon-garfunkle">
+				<img src="./assets/images/Album-artwork/simon-gar.jpg" class="about-image-style"
+					alt="Artwork of Simon & Garfunkel" />
+			</div>
+			<div class="col-lg-4 col-sm-8 wrapper-for-card">
+				<h2>Simon & Garfunkel</h2>
+
+				<p>
+					Simon & Garfunkel were an American folk-rock duo consisting of
+					singer-songwriter Paul Simon and singer Art Garfunkel. One of the
+					best-selling music groups of the 1960s, their biggest hits—including
+					"The Sound of Silence" (1965), "Mrs. Robinson" (1968), "The Boxer"
+					(1969), and "Bridge over Troubled Water" (1970)—reached number one
+					on singles charts worldwide.
+				</p>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col">
+					<ul id="social-links">
+						<li>
+							<a href="https://github.com/COR1999">
+								<i class="fab fa-github"></i></a>
+						</li>
+						<li>
+							<a href="https://linkedin.com">
+								<i class="fab fa-linkedin-in"></i></a>
+						</li>
+						<li><a href="#"> <i class="fab fa-facebook-f"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/c9d5e7cb0f.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

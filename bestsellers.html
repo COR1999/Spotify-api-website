@@ -1,196 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<link
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-			crossorigin="anonymous"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css?family=Baskervville&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="assets/style.css" type="text/css" />
-		<title>Vinyl</title>
-	</head>
-	<body>
-		<header>
-			<!--Navbar-->
-			<nav
-				class="navbar navbar-expand-lg navbar-light bg-light navbar-inverse "
-			>
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<a class="navbar-brand" id="logo" href="index.html"
-							><h1>Vinyl O'Rourke</h1></a
-						>
-					</div>
-					<button
-						class="navbar-toggler"
-						type="button"
-						data-toggle="collapse"
-						data-target="#navbarSupportedContent"
-						aria-controls="navbarSupportedContent"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					>
-						<span class="navbar-toggler-icon"></span>
-					</button>
 
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav ml-auto">
-							<li class="nav-item">
-								<a class="nav-link" href="index.html">Home</a>
-							</li>
-							<li class="nav-item">
-                                <a class="nav-link" href="about.html">Album Details</a>
-							</li>
-							<li class="nav-item   active">
-								<a class="nav-link" href="bestsellers.html">Best Sellers  <span class="sr-only">(current)</span></a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</header>
-		<section id="hero-outer">
-			<!-- <div class="row no-gutters"> -->
-				<!-- <div class="col"> -->
-					<div id="hero-image"></div>
-				<!-- </div> -->
-            </div>
-		</section>
-		<section>
-			<div class="container-fluid table-background table-background-black-overlay">
-				<div class="row bg-best-sellers-header">
-					<div class="col-12">
-						<h2 class="header">
-							Best Sellers <i class="fas fa-record-vinyl"></i>
-						</h2>
-					</div>
-				</div>
-				<div class="row bg-best-sellers-table">
-					<table class="table table-outer">
-						<thead class="table-head">
-                            <tr>
-                                <th scope="col" >Album Artwork</th>
-                                <th scope="col" >Artist Name</th>
-                                <th scope="col" >Record</th>
-                                <th scope="col" class="d-none d-sm-table-cell ">Year</th>
-                                <th scope="col" class="d-none d-sm-table-cell ">Genre</th>
-                            </tr>
-						</thead>
-						<tbody class="table-content">
-                            <tr>
-                                <th scope="row"><img src="./assets/images/Album-artwork/mj.jpg" class="album-artwork"/></th>
-                                <td>Michael Jackson</td>
-                                <td>Thriller</td>
-                                <td class="d-none d-sm-table-cell ">1982</td>
-                                <td class="d-none d-sm-table-cell ">R&B</td class="d-none d-sm-table-cell ">
-                            </tr>
-                            <tr>
-                                <th scope="row"><img src="./assets/images/Album-artwork/ACDC.jpg" class="album-artwork"/></th>
-                                <td>ACDC</td>
-                                <td>Back in Black</td>
-                                <td class="d-none d-sm-table-cell ">1980</td>
-                                <td class="d-none d-sm-table-cell ">Hard rock</td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><img src="./assets/images/Album-artwork/meatloaf.jpg" class="album-artwork"/></th>
-                                <td>Meat Loaf</td>
-                                <td>Bat Out of Hell</td>
-                                <td class="d-none d-sm-table-cell ">1977</td>
-                                <td class="d-none d-sm-table-cell ">Hard rock, glam rock, Heavy metal</td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><img src="./assets/images/Album-artwork/whitney.jpg" class="album-artwork"/></th>
-                                <td>Whitney-Houston / Various artists</td>
-                                <td>The Body-guard</td>
-                                <td class="d-none d-sm-table-cell ">1992</td>
-                                <td class="d-none d-sm-table-cell ">R&B, Soul, Pop, Soundtrack</td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><img src="./assets/images/Album-artwork/eagles.jpg" class="album-artwork"/></th>
-                                <td>Eagles</td>
-                                <td>Their Greatest Hits (1971–1975)</td>
-                                <td class="d-none d-sm-table-cell ">1976</td>
-                                <td class="d-none d-sm-table-cell ">Country rock, Soft rock, Folk rock</td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><img src="./assets/images/Album-artwork/bee-gees.jpg" class="album-artwork"/></th>
-                                <td>Bee Gees / Various artists</td>
-                                <td>Saturday Night Fever</td>
-                                <td class="d-none d-sm-table-cell ">1977</td>
-                                <td class="d-none d-sm-table-cell ">Soft rocky</td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><img src="./assets/images/Album-artwork/fleetwood.jpg" class="album-artwork"/></th>
-                                <td>Fleetwood Mac</td>
-                                <td>Rumours</td>
-                                <td class="d-none d-sm-table-cell ">1977</td>
-                                <td class="d-none d-sm-table-cell ">Soft rock</td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><img src="./assets/images/Album-artwork/Shania.jpg" class="album-artwork"/></th>
-                                <td>Shania Twain</td>
-                                <td>Come on Over</td>
-                                <td class="d-none d-sm-table-cell ">1997</td>
-                                <td class="d-none d-sm-table-cell ">Country, Pop</td>
-                            </tr>
-						</tbody>
-					</table>
-			</div>
-		</section>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+	<link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet" />
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="assets/style.css" type="text/css" />
+	<title>Vinyl</title>
+</head>
 
-		<footer>
+<body>
+	<header>
+		<!--Navbar-->
+		<nav class="navbar navbar-expand-lg navbar-light navbar-inverse bg-navbar">
 			<div class="container-fluid">
-				<div class="row">
-					<div class="col">
-						<ul id="social-links">
-							<li>
-								<a href="https://github.com/COR1999">
-									<i class="fab fa-github"></i
-								></a>
-							</li>
-							<li>
-								<a href="https://linkedin.com">
-									<i class="fab fa-linkedin-in"></i
-								></a>
-							</li>
-							<li><a href="#">
-								<i class="fab fa-facebook-f"></i></a>
-							</li>
-						</ul>
-					</div>
+				<div class="navbar-header">
+					<a class="navbar-brand" id="logo" href="index.html">
+						<h1>Vinyl O'Rourke</h1>
+					</a>
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">Album Details</a>
+						</li>
+						<li class="nav-item   active">
+							<a class="nav-link" href="bestsellers.html">Best Sellers <span
+									class="sr-only">(current)</span></a>
+						</li>
+					</ul>
 				</div>
 			</div>
-		</footer>
-		<script
-			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://kit.fontawesome.com/c9d5e7cb0f.js"
-			crossorigin="anonymous"
-		></script>
-	</body>
+		</nav>
+	</header>
+	<section id="hero-outer">
+		<div id="hero-image"></div>
+	</section>
+	<section>
+		<div class="container-fluid table-background">
+			<div class="row bg-best-sellers-header">
+				<div class="col-12">
+					<h2 class="header">
+						Best Sellers <i class="fas fa-record-vinyl"></i>
+					</h2>
+				</div>
+			</div>
+			<div class="row bg-best-sellers-table">
+				<table class="table table-outer">
+					<thead class="table-head">
+						<tr>
+							<th scope="col">Artwork</th>
+							<th scope="col">Artist</th>
+							<th scope="col">Record</th>
+							<th scope="col" class="d-none d-sm-table-cell ">Year</th>
+							<th scope="col" class="d-none d-sm-table-cell ">Genre</th>
+						</tr>
+					</thead>
+					<tbody class="table-content">
+						<tr>
+							<th scope="row">
+								<img src="./assets/images/Album-artwork/mj.jpg" class="album-artwork"
+									alt="Artwork of Michael Jackson" />
+							</th>
+							<td>Michael Jackson</td>
+							<td>Thriller</td>
+							<td class="d-none d-sm-table-cell">1982</td>
+							<td class="d-none d-sm-table-cell">R&B</td>
+						</tr>
+						<tr>
+							<th scope="row"><img src="./assets/images/Album-artwork/ACDC.jpg" class="album-artwork"
+									alt="Artwork of ACDC" /></th>
+							<td>ACDC</td>
+							<td>Back in Black</td>
+							<td class="d-none d-sm-table-cell">1980</td>
+							<td class="d-none d-sm-table-cell">Hard rock</td>
+						</tr>
+						<tr>
+							<th scope="row"><img src="./assets/images/Album-artwork/meatloaf.jpg" class="album-artwork"
+									alt="Artwork of Meat Loaf" /></th>
+							<td>Meat Loaf</td>
+							<td>Bat Out of Hell</td>
+							<td class="d-none d-sm-table-cell">1977</td>
+							<td class="d-none d-sm-table-cell">Hard rock, glam rock, Heavy metal</td>
+						</tr>
+						<tr>
+							<th scope="row"><img src="./assets/images/Album-artwork/whitney.jpg" class="album-artwork"
+									alt="Artwork of Whitney Houston" /></th>
+							<td>Whitney-Houston / Various artists</td>
+							<td>The Body-guard</td>
+							<td class="d-none d-sm-table-cell ">1992</td>
+							<td class="d-none d-sm-table-cell ">R&B, Soul, Pop, Soundtrack</td>
+						</tr>
+						<tr>
+							<th scope="row"><img src="./assets/images/Album-artwork/eagles.jpg" class="album-artwork"
+									alt="Artwork of Eagles" /></th>
+							<td>Eagles</td>
+							<td>Their Greatest Hits (1971–1975)</td>
+							<td class="d-none d-sm-table-cell ">1976</td>
+							<td class="d-none d-sm-table-cell ">Country rock, Soft rock, Folk rock</td>
+						</tr>
+						<tr>
+							<th scope="row"><img src="./assets/images/Album-artwork/bee-gees.jpg" class="album-artwork"
+									alt="Artwork of Bee Gees" /></th>
+							<td>Bee Gees / Various artists</td>
+							<td>Saturday Night Fever</td>
+							<td class="d-none d-sm-table-cell ">1977</td>
+							<td class="d-none d-sm-table-cell ">Soft rocky</td>
+						</tr>
+						<tr>
+							<th scope="row"><img src="./assets/images/Album-artwork/fleetwood.jpg" class="album-artwork"
+									alt="Artwork of Fleetwood Mac" /></th>
+							<td>Fleetwood Mac</td>
+							<td>Rumours</td>
+							<td class="d-none d-sm-table-cell ">1977</td>
+							<td class="d-none d-sm-table-cell ">Soft rock</td>
+						</tr>
+						<tr>
+							<th scope="row"><img src="./assets/images/Album-artwork/Shania.jpg" class="album-artwork"
+									alt="Artwork of Shania Twain" /></th>
+							<td>Shania Twain</td>
+							<td>Come on Over</td>
+							<td class="d-none d-sm-table-cell ">1997</td>
+							<td class="d-none d-sm-table-cell ">Country, Pop</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col">
+					<ul id="social-links">
+						<li>
+							<a href="https://github.com/COR1999">
+								<i class="fab fa-github"></i></a>
+						</li>
+						<li>
+							<a href="https://linkedin.com">
+								<i class="fab fa-linkedin-in"></i></a>
+						</li>
+						<li><a href="#"> <i class="fab fa-facebook-f"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/c9d5e7cb0f.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

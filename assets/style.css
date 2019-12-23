@@ -76,7 +76,7 @@ img {
 	color: inherit;
 }
 
-#social-links:hover {
+#social-links a:hover {
 	border-bottom: 1px solid #6a4329;
 }
 
@@ -93,25 +93,15 @@ img {
 	border-color: #c34424;
 }
 /*--------Back Ground Colors*/
-.bg-about-favourites {
+.bg-about-favourites,
+.bg-best-sellers-table,
+.bg-best-sellers-header,
+.bg-my-favourite-table,
+.bg-my-favourite-header,
+.bg-navbar{
 	background-color: #e2d5ba;
-}
 
-.bg-best-sellers-table {
-	background-color: #e2d5ba;
 }
-.bg-best-sellers-header {
-	background-color: #e2d5ba;
-}
-
-.bg-my-favourite-table {
-	background-color: #e2d5ba;
-}
-
-.bg-my-favourite-header {
-	background-color: #e2d5ba;
-}
-
 /*--------Content*/
 
 .header {
@@ -165,9 +155,6 @@ img {
 	margin-top: 50px;
 }
 
-@media (max-width: 1250px) {
-}
-
 /*Overlays*/
 
 /*Tables*/
@@ -179,6 +166,9 @@ img {
 	text-align: center;
 }
 
+.table {
+	table-layout: auto;
+}
 .table-outer {
 	display: inline-table;
 }
