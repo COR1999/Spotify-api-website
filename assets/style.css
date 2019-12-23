@@ -8,13 +8,14 @@ body {
 	color: #c34424;
 	overflow-x: hidden;
 }
-
-div {
-	-webkit-background-size: contain no-repeat;
-	-moz-background-size: contain no-repeat;
-	-o-background-size: contain no-repeat;
-	background-size: contain no-repeat;
+h1 {
+	font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #c34424;
+	text-align: center;
 }
+
 h2 {
 	font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
@@ -55,9 +56,6 @@ img {
 .active {
 	border-bottom: 1px solid #c34424;
 }
-.row-height-600 {
-	height: 600;
-}
 
 /*Social Links*/
 #social-links {
@@ -78,7 +76,7 @@ img {
 	color: inherit;
 }
 
-#social-links a:hover {
+#social-links:hover {
 	border-bottom: 1px solid #6a4329;
 }
 
@@ -114,17 +112,14 @@ img {
 	background-color: #e2d5ba;
 }
 
-.bg-light {
-	/* background-color: #e2d5bab4 !important; */
-}
-
 /*--------Content*/
-#best-seller-header,
-#favourite-header {
-	list-style-type: none;
+
+.header {
 	letter-spacing: 4px;
 	text-align: center;
 	padding-top: 10px;
+	font-size: 30px;
+	font-weight: 800;
 }
 
 .favourite-list,
@@ -135,7 +130,7 @@ img {
 	text-align: center;
 }
 
-/* Images*/
+/* Hero Images*/
 #hero-outer {
 	height: 600px;
 	width: auto;
@@ -176,11 +171,6 @@ img {
 /*Overlays*/
 
 /*Tables*/
-/* .table {
-	table-layout: fixed;
-	table-layout: auto;
-} */
-
 .table td,
 .table th {
 	padding: 0.75rem;
@@ -212,16 +202,11 @@ img {
 	color: #c25b17e0;
 }
 
-/*About styleing*/
-
-/* .wrapper-for-card {
-	height: 400px;
-	width: auto;
-} */
+/*Album Details*/
 
 .wrapper-for-card h2 {
-	font-size: 28px;
-	font-weight: 600;
+	font-size: 20px;
+	font-weight: 400;
 	margin-top: 10px;
 }
 
@@ -230,5 +215,5 @@ img {
 	margin-top: 10px;
 	margin-right: 50px;
 	padding-left: 10px;
-	font-weight: 400;
+	font-weight: 200;
 }

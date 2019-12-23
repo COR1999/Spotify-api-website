@@ -30,7 +30,7 @@
 				<div class="container-fluid">
 					<div class="navbar-header">
 						<a class="navbar-brand" id="logo" href="index.html"
-							><h2>Vinyl O'Rourke</h2></a
+							><h1>Vinyl O'Rourke</h1></a
 						>
 					</div>
 					<button
@@ -48,12 +48,12 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item  active">
-								<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+								<a class="nav-link" href="index.html"
+									>Home <span class="sr-only">(current)</span></a
+								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="about.html"
-									>My Favourites </a
-								>
+								<a class="nav-link" href="about.html">Album Details</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="bestsellers.html">Best Sellers</a>
@@ -63,17 +63,18 @@
 				</div>
 			</nav>
 		</header>
-		<section id="hero-outer container-fluid">
-			<div class="row no-gutters">
-				<div class="col">
-					<div id="hero-image"></div>
-				</div>
-			</div>
+		<section id="hero-outer">
+			<!-- <div class="row no-gutters"> -->
+			<!-- <div class="col"> -->
+			<div id="hero-image"></div>
+			<!-- </div> -->
+			<!-- </div> -->
+		</section>
 		<section>
 			<div class="container-fluid table-background ">
 				<div class="row bg-my-favourite-table">
 					<div class="col-12">
-						<h2 id="favourite-header">
+						<h2 class="header">
 							My favourite Records <i class="fas fa-heart"></i>
 						</h2>
 					</div>
@@ -90,67 +91,148 @@
 							</tr>
 						</thead>
 						<tbody class="table-content">
-						<tr>
-							<th scope="row"><img src="./assets/images/Album-artwork/hall-and-oats.jpg" class="album-artwork"/></th>
-							<td><a href="./about.html#hall-and-oats" id="table-link">Hall and Oats</a></td>
-							<td>The Very Best of Daryl Hall & John Oats</td>
-							<td class="d-none d-sm-table-cell ">2001</td>
-							<td class="d-none d-sm-table-cell ">Pop</td>
-						</tr>
-						<tr>
-							<th scope="row"><img src="./assets/images/Album-artwork/fleetwood.jpg" class="album-artwork"/></th>
-							<td><a href="./about.html#fleetwood-mac" id="table-link"> Fleetwood Mac</a></td>
-							<td>Rumours</td>
-							<td class="d-none d-sm-table-cell ">1977</td>
-							<td class="d-none d-sm-table-cell ">Soft rock</td>
-						</tr>
-						<tr>
-							<th scope="row"><img src="./assets/images/Album-artwork/pinkfloyd.jpg" class="album-artwork"/></th>
-							<td><a href="./about.html#pink-floyd" id="table-link">Pink Floyd </a></td>
-							<td>The Dark Side of the Moon</td>
-							<td class="d-none d-sm-table-cell ">1973</td>
-							<td class="d-none d-sm-table-cell ">Progressive rock</td>
-						</tr>
-						<tr>
-							<th scope="row"><img src="./assets/images/Album-artwork/eagles.jpg" class="album-artwork"/></th>
-							<td><a href="./about.html#the-eagles" id="table-link">The Eagles </a></td>
-							<td>Their Greatest Hits (1971–1975)</td>
-							<td class="d-none d-sm-table-cell ">1976</td>
-							<td class="d-none d-sm-table-cell ">Country rock, Soft rock, Folk rock</td>
-						</tr>
-						<tr>
-							<th scope="row"><img src="./assets/images/Album-artwork/vanmorrison.jpg" class="album-artwork"/></th>
-							<td><a href="./about.html#van-morrison" id="table-link">Van Morrison </a></td>
-							<td>Moondance</td>
-							<td class="d-none d-sm-table-cell ">1970</td>
-							<td class="d-none d-sm-table-cell ">Rhythm and blues‎, ‎Soul‎, ‎Rock‎, ‎Jazz‎, Pop</td>
-						</tr>
-						<tr>
-							<th scope="row"><img src="./assets/images/Album-artwork/johnny.jpg" class="album-artwork"/></th>
-							<td><a href="./about.html#johonny-cash" id="table-link">Johonny Cash </a></td>
-							<td>Folsom Prison Blues</td>
-							<td class="d-none d-sm-table-cell ">1957</td>
-							<td class="d-none d-sm-table-cell ">Rock and Roll, Rockabilly, Country</td>
-						</tr>
-						<tr>
-							<th scope="row"><img src="./assets/images/Album-artwork/meatloaf.jpg" class="album-artwork"/></th>
-							<td><a href="./about.html#meat-loaf" id="table-link">Meat Loaf </a></td>
-							<td>Bat Out of Hell</td>
-							<td class="d-none d-sm-table-cell ">1977</td>
-							<td class="d-none d-sm-table-cell ">Hard rock, Glam rock, Heavy metal</td>
-						</tr>
-						<tr>
-							<th scope="row"><img src="./assets/images/Album-artwork/simon-gar.jpg" class="album-artwork"/></th>
-							<td><a href="./about.html#simon-garfunkle" id="table-link">Simon & Garfunkel </a></td>
-							<td>Simon and Garfunkel Greatest Hits</td>
-							<td class="d-none d-sm-table-cell ">1972</td>
-							<td class="d-none d-sm-table-cell ">Folk rock</td>
-						</tr>
+							<tr>
+								<th scope="row">
+									<img
+										src="./assets/images/Album-artwork/hall-and-oats.jpg"
+										class="album-artwork"
+										alt="Hall and oats album cover"
+									/>
+								</th>
+								<td>
+									<a href="./about.html#hall-and-oats" id="table-link"
+										>Hall and Oats</a
+									>
+								</td>
+								<td>The Very Best of Daryl Hall & John Oats</td>
+								<td class="d-none d-sm-table-cell ">2001</td>
+								<td class="d-none d-sm-table-cell ">Pop</td>
+							</tr>
+							<tr>
+								<th scope="row">
+									<img
+										src="./assets/images/Album-artwork/fleetwood.jpg"
+										class="album-artwork"
+										alt="fleet wood mac album cover"
+									/>
+								</th>
+								<td>
+									<a href="./about.html#fleetwood-mac" id="table-link">
+										Fleetwood Mac</a
+									>
+								</td>
+								<td>Rumours</td>
+								<td class="d-none d-sm-table-cell ">1977</td>
+								<td class="d-none d-sm-table-cell ">Soft rock</td>
+							</tr>
+							<tr>
+								<th scope="row">
+									<img
+										src="./assets/images/Album-artwork/pinkfloyd.jpg"
+										class="album-artwork"
+									/>
+								</th>
+								<td>
+									<a href="./about.html#pink-floyd" id="table-link"
+										>Pink Floyd
+									</a>
+								</td>
+								<td>The Dark Side of the Moon</td>
+								<td class="d-none d-sm-table-cell ">1973</td>
+								<td class="d-none d-sm-table-cell ">Progressive rock</td>
+							</tr>
+							<tr>
+								<th scope="row">
+									<img
+										src="./assets/images/Album-artwork/eagles.jpg"
+										class="album-artwork"
+									/>
+								</th>
+								<td>
+									<a href="./about.html#the-eagles" id="table-link"
+										>The Eagles
+									</a>
+								</td>
+								<td>Their Greatest Hits (1971–1975)</td>
+								<td class="d-none d-sm-table-cell ">1976</td>
+								<td class="d-none d-sm-table-cell ">
+									Country rock, Soft rock, Folk rock
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">
+									<img
+										src="./assets/images/Album-artwork/vanmorrison.jpg"
+										class="album-artwork"
+									/>
+								</th>
+								<td>
+									<a href="./about.html#van-morrison" id="table-link"
+										>Van Morrison
+									</a>
+								</td>
+								<td>Moondance</td>
+								<td class="d-none d-sm-table-cell ">1970</td>
+								<td class="d-none d-sm-table-cell ">
+									Rhythm and blues‎, ‎Soul‎, ‎Rock‎, ‎Jazz‎, Pop
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">
+									<img
+										src="./assets/images/Album-artwork/johnny.jpg"
+										class="album-artwork"
+									/>
+								</th>
+								<td>
+									<a href="./about.html#johonny-cash" id="table-link"
+										>Johonny Cash
+									</a>
+								</td>
+								<td>Folsom Prison Blues</td>
+								<td class="d-none d-sm-table-cell ">1957</td>
+								<td class="d-none d-sm-table-cell ">
+									Rock and Roll, Rockabilly, Country
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">
+									<img
+										src="./assets/images/Album-artwork/meatloaf.jpg"
+										class="album-artwork"
+									/>
+								</th>
+								<td>
+									<a href="./about.html#meat-loaf" id="table-link"
+										>Meat Loaf
+									</a>
+								</td>
+								<td>Bat Out of Hell</td>
+								<td class="d-none d-sm-table-cell ">1977</td>
+								<td class="d-none d-sm-table-cell ">
+									Hard rock, Glam rock, Heavy metal
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">
+									<img
+										src="./assets/images/Album-artwork/simon-gar.jpg"
+										class="album-artwork"
+									/>
+								</th>
+								<td>
+									<a href="./about.html#simon-garfunkle" id="table-link"
+										>Simon & Garfunkel
+									</a>
+								</td>
+								<td>Simon and Garfunkel Greatest Hits</td>
+								<td class="d-none d-sm-table-cell ">1972</td>
+								<td class="d-none d-sm-table-cell ">Folk rock</td>
+							</tr>
 						</tbody>
 					</table>
 				</div>
-				</div>
-
+			</div>
 		</section>
 
 		<footer>
