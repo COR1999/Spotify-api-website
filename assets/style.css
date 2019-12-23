@@ -36,7 +36,7 @@ img {
 	height: auto;
 	display: block;
 }
-
+/* LOGO*/
 #logo img {
 	height: 100px;
 	width: auto;
@@ -44,6 +44,14 @@ img {
 #logo {
 	line-height: 75px;
 }
+
+/*Mobile Phones logo size*/
+@media only screen and (max-width: 768px) {
+	#logo h2 {
+		font-size: 18px;
+	}
+}
+
 .active {
 	border-bottom: 1px solid #c34424;
 }
@@ -153,13 +161,29 @@ img {
 }
 
 .about-image-style {
-	height: 200px;
+	height: auto;
 	width: auto;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	margin-top: 50px;
 }
+
+/* @media (max-width: 1250px) {
+	.about-image-style {
+		height: auto;
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		margin-top: 50px;
+	}
+	.wrapper-for-card {
+		height: auto;
+		width: auto;
+		display: block;
+	}
+} */
 
 /*Overlays*/
 
@@ -231,7 +255,4 @@ img {
 	padding-left: 10px;
 	color: #6a4329;
 	font-weight: 400;
-}
-
-@media (min-width: 1250px) {
 }
