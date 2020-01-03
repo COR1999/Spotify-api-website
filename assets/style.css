@@ -1,31 +1,42 @@
+/*  Index
+	1.  Globals
+	2.	LOGO
+	3.	Mobile Phones logo size
+	4.	Social Links
+	5.	Nav Bar
+	6.	Background colours	
+	7.	Content		
+	8.	Hero Images					
+	9.	Album Images                
+	10.	Tables									
+	11.	Album Details				*/
+
 /* my colors #C34424 Brick Red, #6A4329 Dark olive Green, #E2D5BA Tan, #2C1F13 Darker olive Green, #9B6741 Sienna*/
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300|Roboto+Slab&display=swap');
+
+/* Globals*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 html {
 	overflow-x: hidden;
 }
 body {
 	font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
-	color: #c34424;
-	overflow-x: hidden;
 }
 h1 {
-	font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 4px;
-	color: #c34424;
 	text-align: center;
+	color: #c34424;
 }
 
 h2 {
-	font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 4px;
-	color: #c34424;
 	text-align: center;
+	color: #c34424;
 }
 
+
 p {
-	font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
 	color: #6a4329;
 	text-align: center;
 	letter-spacing: 2px;
@@ -37,11 +48,8 @@ img {
 	height: auto;
 	display: block;
 }
+
 /* LOGO*/
-#logo img {
-	height: 100px;
-	width: auto;
-}
 #logo {
 	line-height: 75px;
 }
@@ -63,6 +71,7 @@ img {
 	list-style-type: none;
 	letter-spacing: 4px;
 	text-align: center;
+	padding-top: 10px;
 }
 
 #social-links li {
@@ -77,7 +86,7 @@ img {
 }
 
 #social-links a:hover {
-	border-bottom: 1px solid #6a4329;
+	color: #c34424;
 }
 
 /*Nav bar*/
@@ -100,6 +109,11 @@ img {
 	background-color: #e2d5ba;
 
 }
+
+.footer-bg{
+	background-color: #6a4329;
+}
+
 /*--------Content*/
 
 .header {
@@ -118,17 +132,18 @@ img {
 	text-align: center;
 }
 
+.
+
 /* Hero Images*/
 #hero-outer {
 	height: 600px;
 	width: auto;
-	overflow: hidden;
-	position: relative;
 }
 #hero-image {
 	height: 600px;
 	width: auto;
-	background-image: url('./images/o-VINYL-facebook.jpg');
+	position: relative;
+	background-image: url('images/o-VINYL-facebook.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -154,8 +169,6 @@ img {
 	margin-top: 50px;
 }
 
-/*Overlays*/
-
 /*Tables*/
 .table td,
 .table th {
@@ -172,13 +185,11 @@ img {
 	display: inline-table;
 }
 .table-head {
-	font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
 	font-weight: 800;
 	font-size: 20px;
 }
 
 .table-content {
-	font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
 	font-weight: 600;
 }
 
@@ -214,4 +225,34 @@ img {
     margin-right: auto;
     margin-left: auto;
 }
+
+
+
+/* Best sellers Content*/
+.best-sellers-outer{
+	
+}
+.best-sellers-card h2{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #c34424;
+	font-size: 18px;
+	padding-top: 5px;
+	text-align: left;
+}
+.best-sellers-card p{
+	padding-top: 10px;
+	text-align: left;
+	padding: 0;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+.best-sellers-image img{
+	width: auto;
+	height: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 20px;
 }

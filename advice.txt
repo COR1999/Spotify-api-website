@@ -1,0 +1,43 @@
+
+
+
+
+Website
+Consider remove integrity and crossorigin from script tags,[done]
+Consider move style.css to load last,[done]
+Consider use one entrypoint for all your CSS etc like cdnjs (this can apply to bootstrap and font awesome popperJs, jquery)
+Consider not use Font Awesome JS use CSS instead. If you are using Brand icons only then use font-awesome brands from CDNJS
+Consider a different footer color it looks to cut off the bottom.
+
+### HTML
+
+Consider move font imports into CSS (The font you are importing is not even used so no need for it in HTML)
+Consider not use absolute paths / ./ when loading things use relative paths.
+Consider add target="_blank" and rel="noopener" to links that are going to other domains.
+Replace ./link with link use relative paths not absolute paths gives less problems down the line. (example ./about.html should be about.html`
+As most content is the same I would suggest make a one page scrollable website, and divide the sections more then have seprate pages.
+Home and Best Sellers are identical almost.
+Consider add a section for contact etc.
+Your HTML is invalid and produces a lot of errors.
+there is no need to have a hero section with a empty hero image,  use the section - Technically you are creating a div with an empty div inside. This is bad practice.
+Consider move all classes from sub-div that are direct childs of section a section is a DIV and can use id and classes no need for a div under it to do what it already can do. Avoid nesting to much.
+
+### CSS
+
+Consider remove unused font imports
+Consider use a certain font size and import this correctly
+If body is assigned there is no need to repeat yourself (You want to be DRY in CSS) - if unsure ask in #user-centric
+When repeating yourself consider make a common CLASS and have the common part in this
+You are targeting img inside a logo but no image is present no need for this then.
+It's considered bad practice to use % for font-size, use rem
+Again do not use absolute paths in CSS or HTML you want to use relative paths for images etc hero-image
+Your CSS is invalid and produces errors.
+
+
+Readme
+No Readme provided this will make it automatic fail.
+Consider move favicons into assets as they are part of assets when the website loads
+Consider make a better folder structure of assets, CSS folder should hold css files.
+Consider add sections that match user stories
+There are no wireframes.
+Consider to give your REPO a better name before submitting (this can be renamed in github) (What if people want to hire you, then the name matters)
