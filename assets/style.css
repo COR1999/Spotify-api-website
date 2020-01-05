@@ -102,10 +102,10 @@ img {
 /*--------Back Ground Colors*/
 .bg-about-favourites,
 .bg-best-sellers-table,
-.bg-best-sellers-header,
+.bg-best-sellers,
 .bg-my-favourite-table,
 .bg-my-favourite-header,
-.bg-navbar{
+.bg-navbar {
 	background-color: #e2d5ba;
 
 }
@@ -113,6 +113,7 @@ img {
 .footer-bg{
 	background-color: #6a4329;
 }
+
 
 /*--------Content*/
 
@@ -132,13 +133,10 @@ img {
 	text-align: center;
 }
 
-.
+
 
 /* Hero Images*/
-#hero-outer {
-	height: 600px;
-	width: auto;
-}
+
 #hero-image {
 	height: 600px;
 	width: auto;
@@ -229,30 +227,47 @@ img {
 
 
 /* Best sellers Content*/
+
 .best-sellers-outer{
-	
+	width: auto;
+	height: 180px;
+	/* border: red solid 1px; */
+}
+
+.best-sellers-card {
+	/* border: red solid 1px; */
+	padding: 0;
+	margin: 0;
+
 }
 .best-sellers-card h2{
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	text-align: center;
 	color: #c34424;
-	font-size: 18px;
+	font-size: 16px;
 	padding-top: 5px;
 	text-align: left;
 }
 .best-sellers-card p{
-	padding-top: 10px;
 	text-align: left;
 	padding: 0;
-	margin-left: 15px;
-	margin-top: 10px;
+	font-size: 15px;
 }
 
 .best-sellers-image img{
 	width: auto;
-	height: 200px;
+	height: auto;
 	margin-top: 10px;
-	margin-bottom: 10px;
-	padding-left: 20px;
+	margin-bottom: 5px;
+	/* padding-left: 15px; */
+	margin: 5px;
+	padding: 0;
+}
+
+
+.best-sellers-card ul{
+	list-style: none;
+	padding-left: 0;
+
 }
