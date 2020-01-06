@@ -357,16 +357,16 @@ img {
 }
 
 .form-style{
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 0, 0, 0.8);
 	margin: auto;
 }
 
 .form-style label{
 	color: #E2D5BA;
 	font-weight: 800;
-	/* background-color: #e2d5ba; */
 	font-size: 20px;
 	margin-top: 5px;
+	padding-left: 10px;
 }
 
 
