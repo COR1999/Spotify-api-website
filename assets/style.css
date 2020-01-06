@@ -289,7 +289,6 @@ img {
 	.buy-now-button{
 		background-color: #c34424;
 		color: #e2d5ba;
-		/* margin-left: 10px; */
 		border-radius: 10%;
 		font-size: 12px;
 	}
@@ -305,7 +304,6 @@ img {
 .buy-now-button-submit{
 	background-color: #c34424c2;
 	color: #e2d5ba;
-	/* margin-left: 10px; */
 	border-radius: 10%;
 	font-size: 30px;
 	text-align: center;
@@ -320,7 +318,7 @@ img {
 		color: #e2d5ba;
 		/* margin-left: 10px; */
 		border-radius: 10%;
-		font-size: 30px;
+		font-size: 20px;
 		text-align: center;
 		display: block;
 		max-width: 40%;
@@ -337,7 +335,7 @@ img {
 @media only screen and (max-width: 768px) {
 
 	#buy-now-header{
-		font-size: 18px;
+		font-size: 20px;
 		padding: 10px;
 	}
 }
@@ -352,11 +350,10 @@ img {
 @media only screen and (max-width: 768px) {
 	.form-center{
 		display: block;
-		max-width: 70%;
+		max-width: 100%;
 		margin: auto;
 		/* text-align: center; */
 	}
-
 }
 
 .form-style{
@@ -376,6 +373,7 @@ img {
 .bg-image-buy-now{
 	width: auto;
 	height: auto;
+	position: relative;
 	background-image: url("/assets/images/buy-now-image.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
