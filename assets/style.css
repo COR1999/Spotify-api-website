@@ -271,3 +271,113 @@ img {
 	padding-left: 0;
 
 }
+
+
+/*Button*/
+.buy-now-button{
+	background-color: #c34424;
+	color: #e2d5ba;
+	margin-left: 10px;
+	border-radius: 10%;
+}
+
+.buy-now-button:hover{
+	background-color: #6a4329;
+}
+
+@media only screen and (max-width: 768px) {
+	.buy-now-button{
+		background-color: #c34424;
+		color: #e2d5ba;
+		/* margin-left: 10px; */
+		border-radius: 10%;
+		font-size: 12px;
+	}
+	
+	.buy-now-button:hover{
+		background-color: #6a4329;
+	}
+
+}
+
+
+
+.buy-now-button-submit{
+	background-color: #c34424c2;
+	color: #e2d5ba;
+	/* margin-left: 10px; */
+	border-radius: 10%;
+	font-size: 30px;
+	text-align: center;
+	display: block;
+	max-width: 20%;
+	margin: 0px auto 20px auto;
+}
+
+@media only screen and (max-width: 768px) {
+	.buy-now-button-submit{
+		background-color: #c34424c2;
+		color: #e2d5ba;
+		/* margin-left: 10px; */
+		border-radius: 10%;
+		font-size: 30px;
+		text-align: center;
+		display: block;
+		max-width: 40%;
+	}
+	
+
+}
+#buy-nowheader{
+	padding: 10px;
+}
+.buy-now-button-submit:hover{
+	background-color: #6a4329b0;
+}
+@media only screen and (max-width: 768px) {
+
+	#buy-now-header{
+		font-size: 18px;
+		padding: 10px;
+	}
+}
+
+/*Form*/
+.form-center{
+	display: block;
+	max-width: 40%;
+	margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+	.form-center{
+		display: block;
+		max-width: 70%;
+		margin: auto;
+		/* text-align: center; */
+	}
+
+}
+
+.form-style{
+	background-color: rgba(0, 0, 0, 0.3);
+	margin: auto;
+}
+
+.form-style label{
+	color: #E2D5BA;
+	font-weight: 800;
+	/* background-color: #e2d5ba; */
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+
+.bg-image-buy-now{
+	width: auto;
+	height: auto;
+	background-image: url(/assets/images/buy-now-image.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
