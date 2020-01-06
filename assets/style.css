@@ -95,6 +95,9 @@ img {
 	color: #c34424;
 }
 
+.navbar-light .navbar-nav .nav-link{
+	color: #2C1F13;
+}
 .navbar-light .navbar-toggler {
 	color: rgba(0, 0, 0, 0.5);
 	border-color: #c34424;
@@ -170,7 +173,7 @@ img {
 /*Tables*/
 .table td,
 .table th {
-	padding: 0.75rem;
+	padding: 0.40rem;
 	border-top: 1px solid #e2d5ba;
 	color: #6a4329;
 	text-align: center;
@@ -178,6 +181,8 @@ img {
 
 .table {
 	table-layout: auto;
+	font-size: 14px;
+	font-weight: 300;
 }
 .table-outer {
 	display: inline-table;
@@ -277,8 +282,8 @@ img {
 .buy-now-button{
 	background-color: #c34424;
 	color: #e2d5ba;
-	margin-left: 10px;
 	border-radius: 10%;
+	margin-top: 5px;
 }
 
 .buy-now-button:hover{
