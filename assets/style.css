@@ -376,7 +376,7 @@ img {
 .bg-image-buy-now{
 	width: auto;
 	height: auto;
-	background-image: url(/assets/images/buy-now-image.jpg);
+	background-image: url("/assets/images/buy-now-image.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
