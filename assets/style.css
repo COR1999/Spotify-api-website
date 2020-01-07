@@ -244,50 +244,61 @@ img {
 
 
 /* Best sellers Content*/
-
-.best-sellers-outer{
-	width: auto;
-	height: 180px;
-	/* border: red solid 1px; */
-}
-
-.best-sellers-card {
-	/* border: red solid 1px; */
+.card{
+	background-color: inherit;
 	padding: 0;
 	margin: 0;
-
+	border: none;
 }
-.best-sellers-card h2{
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	text-align: center;
-	color: #c34424;
+
+.card-img{
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+	width: 35%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.card-title{
+	font-size: 20px;
+}
+.card-body{
 	font-size: 16px;
-	padding-top: 5px;
-	text-align: left;
 }
-.best-sellers-card p{
-	text-align: left;
-	padding: 0;
-	font-size: 15px;
-}
-
-.best-sellers-image img{
-	width: auto;
-	height: auto;
-	margin-top: 10px;
-	margin-bottom: 5px;
-	/* padding-left: 15px; */
-	margin: 5px;
-	padding: 0;
-}
-
-
-.best-sellers-card ul{
+.card-body ul{
 	list-style: none;
 	padding-left: 0;
-
+	text-align: center;
+	color: #2C1F13;
 }
+
+/* @media (max-width: 992px){
+	.card-title{
+		font-size: 22px;
+	}
+	.card-body{
+		font-size: inherit;
+	}
+} */
+
+@media (max-width: 768px){
+		.card-title{
+			font-size: 18px;
+		}
+		.card-body{
+			font-size: 16px;
+		}
+}
+@media (max-width: 576px){
+	.card-title{
+		font-size: 16px;
+	}
+	.card-body{
+		font-size: 14px;
+	}
+}
+
+
 
 
 /*Button*/
