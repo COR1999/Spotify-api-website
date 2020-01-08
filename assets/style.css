@@ -92,6 +92,13 @@ img {
 	color: #c34424;
 }
 
+
+/*Spotify link*/
+
+.artist-spotify{
+	color: #1db954;
+}
+
 /*--------Nav bar*/
 .navbar-light .navbar-nav .active > .nav-link,
 .show{
@@ -127,6 +134,7 @@ img {
 
 }
 
+
 .footer-bg{
 	background-color: #6a4329;
 }
@@ -155,6 +163,36 @@ img {
 	background-size: cover;
 }
 
+.bg-image-artist-details{
+	height: 600px;
+	width: auto;
+	position: relative;
+	background-image: url('images/making\ magic.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.bg-image-best-sellers{
+	height: 600px;
+	width: auto;
+	position: relative;
+	background-image: url('images/bestsellers-headerCroped.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.bg-image-buy-now {
+    width: auto;
+    height: auto;
+    position: relative;
+    background-image: url("images/buy-now-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 /*--------Album Images*/
 
 .album-artwork {
@@ -173,6 +211,7 @@ img {
 	margin-right: auto;
 	display: block;
 	margin-top: 50px;
+	padding: 15px;
 }
 
 /*--------Tables*/
@@ -214,8 +253,9 @@ img {
 
 .wrapper-for-card h2 {
 	font-size: 20px;
-	font-weight: 400;
+	font-weight: 600;
 	margin-top: 10px;
+	color: #2C1F13;
 }
 
 .wrapper-for-card p {
@@ -233,6 +273,7 @@ img {
     margin-right: auto;
     margin-left: auto;
 }
+
 
 
 
@@ -254,6 +295,8 @@ img {
 }
 .card-title{
 	font-size: 20px;
+	color: #2C1F13;
+
 }
 .card-body{
 	font-size: 16px;
@@ -262,7 +305,7 @@ img {
 	list-style: none;
 	padding-left: 0;
 	text-align: center;
-	color: #2C1F13;
+	color: #6a4329;
 }
 
 
@@ -282,6 +325,9 @@ img {
 		font-size: 14px;
 	}
 }
+
+
+
 
 
 
@@ -340,6 +386,7 @@ img {
 }
 #buy-nowheader{
 	padding: 10px;
+	
 }
 .buy-now-button-submit:hover{
 	background-color: #6a4329b0;
@@ -370,6 +417,8 @@ img {
 .form-style{
 	background-color: rgba(0, 0, 0, 0.8);
 	margin: auto;
+	padding: 20px;
+	border-radius: 10%;
 }
 
 .form-style label{
@@ -378,15 +427,6 @@ img {
 	font-size: 20px;
 	margin-top: 5px;
 	padding-left: 10px;
+	
 }
 
-
-.bg-image-buy-now{
-	width: auto;
-	height: auto;
-	position: relative;
-	background-image: url("images/buy-now-image.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
