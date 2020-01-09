@@ -17,33 +17,33 @@ Features
 2. The application header has a navagion bar to show you your current page and allow you to link to the other pages .
 3. The application footer contains links to social media.
 4. The Home page provides a table of my favourite record's, with links to listen to the record on spotify and also be able to buy it. It also provides a link on the artist name to their respective section on the Artist Details page.
-5. The Artist Details page provides information about the given artist and a picture of my favourite album of their's.
+5. The Artist Details page provides information about the given artist and a picture of my favourite album of their's. Link to the artist so that you can listen to other albums on spotify.
 6. The Best Sellers page has the most sold records of all time.
 7. For my website I implemented a favicon to show a graphical representation of the site being visited at the left side of the browser's address bar. 
 
 Technologies Used
-HTML5 
-The application was created as static html page's.
-https://en.wikipedia.org/wiki/HTML5 
-CSS3 
-CSS was used to style the HTML
-The style sheet was kept seperate from the html.
-https://en.wikipedia.org/wiki/Cascading_Style_Sheets 
-Bootstrap Version 4.4.1
-Bootstrap compenents such as grid,card,button,table,navbar where used in my project to simplfy creating responsive web application
-https://getbootstrap.com/ 
-Font-awesome Version 5.11.1 
-Font-awesome was used to get some icon for my pages.
-https://fontawesome.com/ 
-Spoify
-Spoify was used to play music. The artist link was copied from the spotify website and embedded in the html
-VSCODE 
-VSCODE was used as the devlopment environment
-https://code.visualstudio.com/ 
-Github
-Github was used for my version control in the project. 
-https://github.com/ 
-
+ 1. HTML5 
+(a) The application was created as static html page's.
+(b) https://en.wikipedia.org/wiki/HTML5 
+ 2. CSS3 
+(a) CSS was used to style the HTML
+(b) The style sheet was kept seperate from the html.
+(c) https://en.wikipedia.org/wiki/Cascading_Style_Sheets 
+ 3. Bootstrap Version 4.4.1
+(a) Bootstrap compenents such as grid,card,button,table,navbar where used in my project to simplfy creating responsive web application
+(b) https://getbootstrap.com/ 
+ 4. Font-awesome Version 5.11.1 
+(a) Font-awesome was used to get some icon for my pages.
+(b) https://fontawesome.com/ 
+ 5. Spoify
+(a) Spoify was used to play music. The artist link was copied from the spotify website and embedded in the html
+ 6. VSCODE 
+(a) VSCODE was used as the devlopment environment
+(b) https://code.visualstudio.com/ 
+ 7. Github
+(a) Github was used for my version control in the project. 
+(b) https://github.com/ 
+ 8. 
 
 Testing
 
