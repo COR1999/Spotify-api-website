@@ -22,6 +22,7 @@ html {
 }
 body {
 	font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+
 }
 h1 {
 	text-transform: uppercase;
@@ -117,6 +118,10 @@ img {
 	color: #c34424;
 }
 
+.navbar{
+	padding: 10px;
+}
+
 
 
 .navbar-light .navbar-toggler {
@@ -129,7 +134,8 @@ img {
 .bg-best-sellers,
 .bg-my-favourite-table,
 .bg-my-favourite-header,
-.bg-navbar {
+.bg-navbar,
+.bg-home-information {
 	background-color: #e2d5ba;
 
 }
@@ -146,9 +152,33 @@ img {
 	letter-spacing: 4px;
 	text-align: center;
 	padding-top: 10px;
-	font-size: 30px;
+	font-size: 28px;
+	font-weight: 600;
+}
+
+.header-favourite-records {
+	letter-spacing: 4px;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.home-information h2{
+	padding-top: 10px;
 	font-weight: 800;
 }
+
+.home-information{
+	padding: 10px;
+}
+
+.home-information p{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 
 /*--------Hero Images*/
