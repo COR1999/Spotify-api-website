@@ -1,18 +1,18 @@
 
-Vinyl O'Rourke 
+# Vinyl O'Rourke 
 
 Overview
 This is a website that presents my favourite vinyl records details about them including the artwork and artist. It then has an option to purchase the record. It also has a list of the top most sold records.
 
-UX
+## UX
 This website is used to showcase my love for music to the world using different layouts and pictures. This website is aimed at fellow music lovers like myself and has a range of music for everyone no matter what your tastes are.
 
 As a user, I would like to be able to explore different types of music, to find more information about the artist and there album's.
 As a user, I would like to be able to listen to the music of my choice, to decide if I like it before I buy it.
 As a user, I would like to be able to buy the music that I like, so I can listen to it on my own record player.
 
-Features
-
+## Features
+### Existing Features
 1. Mobile first responsive design so that the application looks good and preforms well on mutiple device resolution.
 2. The application header has a navagion bar to show you your current page and allow you to link to the other pages .
 3. The application footer contains links to social media.
@@ -20,8 +20,10 @@ Features
 5. The Artist Details page provides information about the given artist and a picture of my favourite album of their's. Link to the artist so that you can listen to other albums on spotify.
 6. The Best Sellers page has the most sold records of all time.
 7. For my website I implemented a favicon to show a graphical representation of the site being visited at the left side of the browser's address bar. 
+### Future Enhancements
 
-Technologies Used
+
+## Technologies Used
  1. HTML5 
 (a) The application was created as static html page's.
 (b) https://en.wikipedia.org/wiki/HTML5 
@@ -45,7 +47,7 @@ Technologies Used
 (b) https://github.com/ 
  8. 
 
-Testing
+## Testing
 
 1. Responsive by resizing browse and also using chrome dev tools to simulate deifferent devices
 2. Test on my iPhone 6.
@@ -61,7 +63,7 @@ Testing
 On the Home test that the link of each artist brings you to the correct section on the artist detail page. Tested that all the Buy now button's work for each album and tested that the liisten now button works and goes to the correct spotify link.
 
 
-Deployment
+## Deployment
 
 I used a local host and once I was happy I commited to github to check that everything ran smoothly there aswell. 
 
