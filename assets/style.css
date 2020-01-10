@@ -17,8 +17,10 @@
 
 /*--------Globals*/
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
 html {
 	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 body {
 	font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
@@ -90,7 +92,7 @@ img {
 }
 
 #social-links a:hover {
-	color: #c34424;
+	color: #E2D5BA;
 }
 
 
@@ -98,6 +100,10 @@ img {
 
 .artist-spotify{
 	color: #1db954;
+}
+
+.artist-spotify:hover{
+	color: #15863d;
 }
 
 /*--------Nav bar*/
@@ -142,7 +148,7 @@ img {
 
 
 .footer-bg{
-	background-color: #6a4329;
+	background-color: #6A4329;
 }
 
 
