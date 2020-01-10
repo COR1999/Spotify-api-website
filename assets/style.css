@@ -95,6 +95,14 @@ img {
 	color: #E2D5BA;
 }
 
+.copyright{
+	color: #E2D5BA;
+	float: right;
+	font-size: 90%;
+  	line-height: 60px;
+  	text-transform: none;
+}
+
 
 /*Spotify link*/
 
