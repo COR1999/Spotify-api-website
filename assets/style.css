@@ -98,11 +98,25 @@ img {
 .copyright{
 	color: #E2D5BA;
 	float: right;
-	font-size: 90%;
-  	line-height: 60px;
-  	text-transform: none;
+	font-size: 14px;
+	line-height: 15px;
+	text-transform: none;
+	padding-top: 10px;
 }
+@media (max-width: 600px){
+	.copyright{
+		font-size: 60%;
+		padding-top: 10px;
 
+	}
+	#social-links{
+		font-size: 80%;
+		letter-spacing: 0px;
+	}
+	#social-links li {
+		margin-right: 10px;
+	}
+}
 
 /*Spotify link*/
 
@@ -234,7 +248,8 @@ img {
     background-image: url("images/buy-now-image.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+	background-size: cover;
+	padding: 10px;
 }
 
 /*--------Album Images*/
