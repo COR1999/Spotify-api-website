@@ -2,7 +2,7 @@
 # Vinyl O'Rourke 
 
 ## Overview
-This is a website that presents my favourite vinyl records details about them including the artwork and artist. It then has an option to purchase the record. It also has a list of the top most sold records.
+This is a website that presents my favourite vinyl records with details about them including the artwork and artist. It then has an option to purchase the record. It also has a list of the top most sold records.
 
 
 ## UX
@@ -76,11 +76,12 @@ As a user, I would like to be able to buy the music that I like, so I can listen
 I used a local host and once I was happy I commited to github to check that everything ran smoothly there as well. 
 
 ## Credits
-
 ### Content
 The text that was used on the artist details was copied from [Wikepedia](https://en.wikipedia.org/wiki/).
 
 The genre and year section on my pages was found from a simple google search of the given album.
+
+I Used Boostrap 4 in this project.
 
 ### Media
 I searched the web for a suitable [hero image](http://adamleerosenfeld.com/useful-content-personal-leadership/)

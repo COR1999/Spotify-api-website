@@ -1,19 +1,18 @@
 /*  Index
 	1.  Globals
-	2.	LOGO
-	3.	Mobile Phones logo size
-	4.	Social Links
-	5.	Nav Bar
-	6.	Background colours	
-	7.	Content		
-	8.	Hero Images					
-	9.	Album Images                
-	10.	Tables									
-	11.	Album Details	
-	12. Button
-	13. Form			*/
+	2.	Mobile Phones logo size
+	3.	Social Links
+	4.	Nav Bar
+	5.	Background colours	
+	6.	Content		
+	7.	Hero Images					
+	8.	Album Images                
+	9.	Tables									
+	10.	Album Details	
+	11. Button
+	12. Form			*/
 
-/* my colors #C34424 Brick Red, #6A4329 Dark olive Green, #E2D5BA Tan, #2C1F13 Darker olive Green, #9B6741 Sienna*/
+/* My colors #C34424 Brick Red, #6A4329 Dark olive Green, #E2D5BA Tan, #2C1F13 Darker olive Green, #9B6741 Sienna*/
 
 /*--------Globals*/
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
@@ -26,25 +25,19 @@ body {
 	font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
 
 }
-h1 {
+h1,
+h2{
 	text-transform: uppercase;
 	letter-spacing: 4px;
 	text-align: center;
 	color: #c34424;
 }
-
-h2 {
-	text-transform: uppercase;
-	letter-spacing: 4px;
-	text-align: center;
-	color: #c34424;
-}
-
 
 p {
 	color: #6a4329;
 	text-align: center;
 	letter-spacing: 2px;
+	font-size: 18px;
 }
 
 img {
@@ -54,15 +47,10 @@ img {
 	display: block;
 }
 
-/*--------LOGO*/
-#logo {
-	line-height: 75px;
-}
-
 /*--------Mobile Phones logo size*/
 @media only screen and (max-width: 768px) {
 	#logo h1 {
-		font-size: 18px;
+		font-size: 80%;
 	}
 }
 
@@ -75,18 +63,17 @@ img {
 #social-links {
 	font-size: 110%;
 	list-style-type: none;
-	letter-spacing: 4px;
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 2%;
 }
 
 #social-links li {
 	display: inline-block;
 	text-align: center;
-	margin-right: 30px;
+	margin-right: 6%;
 }
 
-#social-links a {
+#social-links a{
 	text-decoration: none;
 	color: inherit;
 }
@@ -95,32 +82,55 @@ img {
 	color: #E2D5BA;
 }
 
+.offset-social-links {
+    margin-left: 24%;
+}
+
 .copyright{
 	color: #E2D5BA;
 	float: right;
 	font-size: 14px;
 	line-height: 15px;
 	text-transform: none;
-	padding-top: 10px;
+	padding-top: 15px;
 }
-@media (max-width: 600px){
+
+
+@media (max-width: 890px){
 	.copyright{
 		font-size: 60%;
 		padding-top: 10px;
+	}
+}
 
+@media (max-width: 575px){
+	.copyright{
+		font-size: 30%;
 	}
 	#social-links{
 		font-size: 80%;
 		letter-spacing: 0px;
+		margin-left: 8%;
+		padding-left: 0%;
 	}
-	#social-links li {
-		margin-right: 10px;
+
+}
+/* Mobile View*/
+@media (max-width:500px){
+	.copyright{
+		font-size: 20%;
+	}
+	#social-links{
+		margin-left: 0;
+		padding-top: 10px;
 	}
 }
+
 
 /*Spotify link*/
 
 .artist-spotify{
+	/* Spotify Green taken from thier website */
 	color: #1db954;
 }
 
@@ -129,16 +139,6 @@ img {
 }
 
 /*--------Nav bar*/
-.navbar-light .navbar-nav .active > .nav-link,
-.show{
-	color: #c34424;
-}
-
-.navbar-light .navbar-nav .active > .nav-link,
-.show:hover{
-	color: #2C1F13;
-}
-
 .navbar-light .navbar-nav .nav-link{
 	color: #2C1F13;
 }
@@ -150,15 +150,8 @@ img {
 	padding: 10px;
 }
 
-
-
-.navbar-light .navbar-toggler {
-	color: rgba(0, 0, 0, 0.5);
-	border-color: #c34424;
-}
 /*--------Back Ground Colors*/
 .bg-about-favourites,
-.bg-best-sellers-table,
 .bg-best-sellers,
 .bg-my-favourite-table,
 .bg-my-favourite-header,
@@ -329,8 +322,6 @@ img {
 	width: 100%;
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 
@@ -345,8 +336,6 @@ img {
 }
 
 .card-img{
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
 	width: 35%;
 	display: block;
 	margin-left: auto;
@@ -371,9 +360,6 @@ img {
 @media (max-width: 768px){
 		.card-title{
 			font-size: 18px;
-		}
-		.card-body{
-			font-size: 16px;
 		}
 }
 @media (max-width: 576px){
@@ -402,6 +388,10 @@ img {
 .buy-now-button:hover{
 	background-color: #6a4329;
 }
+.buy-today{
+	padding-top: 15px;
+}
+
 
 @media only screen and (max-width: 768px) {
 	.buy-now-button{
@@ -418,7 +408,7 @@ img {
 }
 
 
-
+/*Buy-now page button*/
 .buy-now-button-submit{
 	background-color: #c34424c2;
 	color: #e2d5ba;
@@ -428,6 +418,10 @@ img {
 	display: block;
 	max-width: 20%;
 	margin: 0px auto 20px auto;
+}
+
+.buy-now-button-submit:hover{
+	background-color: #6a4329;
 }
 
 @media only screen and (max-width: 768px) {
@@ -440,22 +434,19 @@ img {
 		display: block;
 		max-width: 40%;
 	}
-	
+}
 
-}
-#buy-nowheader{
-	padding: 10px;
-	
-}
-.buy-now-button-submit:hover{
-	background-color: #6a4329b0;
-}
 @media only screen and (max-width: 768px) {
 
 	#buy-now-header{
 		font-size: 20px;
 		padding: 10px;
 	}
+}
+
+.btn-close{
+	background-color: #c34424c2;
+	color: #e2d5ba;
 }
 
 /*-------- Form*/
@@ -468,13 +459,13 @@ img {
 @media only screen and (max-width: 768px) {
 	.form-center{
 		display: block;
-		max-width: 100%;
+		max-width: 90%;
 		margin: auto;
 	}
 }
 
 .form-style{
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.7);
 	margin: auto;
 	padding: 20px;
 	border-radius: 10%;
@@ -486,6 +477,5 @@ img {
 	font-size: 20px;
 	margin-top: 5px;
 	padding-left: 10px;
-	
 }
 
