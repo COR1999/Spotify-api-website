@@ -1,481 +1,51 @@
-/*  Index
-	1.  Globals
-	2.	Mobile Phones logo size
-	3.	Social Links
-	4.	Nav Bar
-	5.	Background colours	
-	6.	Content		
-	7.	Hero Images					
-	8.	Album Images                
-	9.	Tables									
-	10.	Album Details	
-	11. Button
-	12. Form			*/
-
-/* My colors #C34424 Brick Red, #6A4329 Dark olive Green, #E2D5BA Tan, #2C1F13 Darker olive Green, #9B6741 Sienna*/
-
-/*--------Globals*/
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
-
-html {
-	overflow-x: hidden;
-	scroll-behavior: smooth;
-}
-body {
-	font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
-
-}
-h1,
-h2{
-	text-transform: uppercase;
-	letter-spacing: 4px;
-	text-align: center;
-	color: #c34424;
-}
-
-p {
-	color: #6a4329;
-	text-align: center;
-	letter-spacing: 2px;
-	font-size: 18px;
-}
-
-img {
-	width: auto;
-	max-width: 100%;
-	height: auto;
-	display: block;
-}
-
-/*--------Mobile Phones logo size*/
-@media only screen and (max-width: 768px) {
-	#logo h1 {
-		font-size: 80%;
-	}
-}
-
-.active {
-	border-bottom: 2px solid #c34424;
+body{
+    background-color: #445;
+    color: green;
+    font-weight: 400;
 }
 
 
-/*--------Social Links*/
-#social-links {
-	font-size: 110%;
-	list-style-type: none;
-	text-align: center;
-	padding-top: 2%;
+/*Search Form*/
+.search-bar{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+#search-form input{
+    width: 300px;
 }
 
-#social-links li {
-	display: inline-block;
-	text-align: center;
-	margin-right: 6%;
+#search-form button{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 30%;
+    background-color: #934;
+    font-weight: 800;
 }
 
-#social-links a{
-	text-decoration: none;
-	color: inherit;
+/*Artist card*/
+#artist-card{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #445;
+    text-align: center;
+    padding: 10px;
 }
 
-#social-links a:hover {
-	color: #E2D5BA;
-}
-
-.offset-social-links {
-    margin-left: 24%;
-}
-
-.copyright{
-	color: #E2D5BA;
-	float: right;
-	font-size: 14px;
-	line-height: 15px;
-	text-transform: none;
-	padding-top: 15px;
-}
-
-
-@media (max-width: 890px){
-	.copyright{
-		font-size: 60%;
-		padding-top: 10px;
-	}
-}
-
-@media (max-width: 575px){
-	.copyright{
-		font-size: 30%;
-	}
-	#social-links{
-		font-size: 80%;
-		letter-spacing: 0px;
-		margin-left: 8%;
-		padding-left: 0%;
-	}
-
-}
-/* Mobile View*/
-@media (max-width:500px){
-	.copyright{
-		font-size: 20%;
-	}
-	#social-links{
-		margin-left: 0;
-		padding-top: 10px;
-	}
+#artist-card h2{
+    font-size: 28px;
+    color: #777;
 }
 
 
-/*Spotify link*/
-
-.artist-spotify{
-	/* Spotify Green taken from thier website */
-	color: #1db954;
+#artist-songs a{
+    color: #874;
+    padding: 5px;
 }
 
-.artist-spotify:hover{
-	color: #15863d;
-}
-
-/*--------Nav bar*/
-.navbar-light .navbar-nav .nav-link{
-	color: #2C1F13;
-}
-.navbar-light .navbar-nav .nav-link:hover{
-	color: #c34424;
-}
-
-.navbar{
-	padding: 10px;
-}
-
-/*--------Back Ground Colors*/
-.bg-about-favourites,
-.bg-best-sellers,
-.bg-my-favourite-table,
-.bg-my-favourite-header,
-.bg-navbar,
-.bg-home-information {
-	background-color: #e2d5ba;
-
-}
-
-
-.footer-bg{
-	background-color: #6A4329;
-}
-
-
-/*--------Content*/
-
-.header {
-	letter-spacing: 4px;
-	text-align: center;
-	padding-top: 10px;
-	font-size: 28px;
-	font-weight: 600;
-}
-
-.header-favourite-records {
-	letter-spacing: 4px;
-	text-align: center;
-	padding-top: 10px;
-	font-size: 24px;
-	font-weight: 600;
-}
-
-.home-information h2{
-	padding-top: 10px;
-	font-weight: 800;
-}
-
-.home-information{
-	padding: 10px;
-}
-
-.home-information p{
-	max-width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-
-
-/*--------Hero Images*/
-
-#hero-image {
-	height: 600px;
-	width: auto;
-	position: relative;
-	background-image: url('images/o-VINYL-facebook.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-.bg-image-artist-details{
-	height: 600px;
-	width: auto;
-	position: relative;
-	background-image: url('images/making\ magic.jpeg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-.bg-image-best-sellers{
-	height: 600px;
-	width: auto;
-	position: relative;
-	background-image: url('images/bestsellers-headerCroped.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-.bg-image-buy-now {
-    width: auto;
-    height: auto;
-    position: relative;
-    background-image: url("images/buy-now-image.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-	background-size: cover;
-	padding: 10px;
-}
-
-/*--------Album Images*/
-
-.album-artwork {
-	height: 50px;
-	width: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 4px;
-	padding-left: 5px;
-}
-
-.about-image-style {
-	height: auto;
-	width: auto;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	margin-top: 50px;
-	padding: 15px;
-}
-
-/*--------Tables*/
-.table td,
-.table th {
-	padding: 0.40rem;
-	border-top: 1px solid #e2d5ba;
-	color: #6a4329;
-	text-align: center;
-}
-
-.table {
-	table-layout: auto;
-	font-size: 14px;
-	font-weight: 300;
-}
-.table-outer {
-	display: inline-table;
-}
-.table-head {
-	font-weight: 800;
-	font-size: 20px;
-}
-
-.table-content {
-	font-weight: 600;
-}
-
-#table-link {
-	color: inherit;
-	text-decoration: underline;
-}
-
-#table-link:hover {
-	color: #c25b17e0;
-}
-
-/*--------Album Details*/
-
-.wrapper-for-card h2 {
-	font-size: 20px;
-	font-weight: 600;
-	margin-top: 10px;
-	color: #2C1F13;
-}
-
-.wrapper-for-card p {
-	font-size: 16px;
-	margin-top: 10px;
-	padding-left: 5px;
-	padding-right: 5px;
-	font-weight: 200;
-}
-
-.container-album-details{
-	width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-
-
-
-/*-------- Best sellers Content*/
-.card{
-	background-color: inherit;
-	padding: 0;
-	margin: 0;
-	border: none;
-}
-
-.card-img{
-	width: 35%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-.card-title{
-	font-size: 20px;
-	color: #2C1F13;
-
-}
-.card-body{
-	font-size: 16px;
-}
-.card-body ul{
-	list-style: none;
-	padding-left: 0;
-	text-align: center;
-	color: #6a4329;
-}
-
-
-@media (max-width: 768px){
-		.card-title{
-			font-size: 18px;
-		}
-}
-@media (max-width: 576px){
-	.card-title{
-		font-size: 16px;
-	}
-	.card-body{
-		font-size: 14px;
-	}
-}
-
-
-
-
-
-
-
-/*-------- Button*/
-.buy-now-button{
-	background-color: #c34424;
-	color: #fff;
-	border-radius: 10%;
-	margin-top: 5px;
-}
-
-.buy-now-button:hover{
-	background-color: #6a4329;
-}
-.buy-today{
-	padding-top: 15px;
-}
-
-
-@media only screen and (max-width: 768px) {
-	.buy-now-button{
-		background-color: #c34424;
-		color: #e2d5ba;
-		border-radius: 10%;
-		font-size: 14px;
-	}
-	
-	.buy-now-button:hover{
-		background-color: #6a4329;
-	}
-
-}
-
-
-/*Buy-now page button*/
-.buy-now-button-submit{
-	background-color: #c34424c2;
-	color: #e2d5ba;
-	border-radius: 10%;
-	font-size: 30px;
-	text-align: center;
-	display: block;
-	max-width: 20%;
-	margin: 0px auto 20px auto;
-}
-
-.buy-now-button-submit:hover{
-	background-color: #6a4329;
-}
-
-@media only screen and (max-width: 768px) {
-	.buy-now-button-submit{
-		background-color: #c34424c2;
-		color: #e2d5ba;
-		border-radius: 10%;
-		font-size: 20px;
-		text-align: center;
-		display: block;
-		max-width: 40%;
-	}
-}
-
-@media only screen and (max-width: 768px) {
-
-	#buy-now-header{
-		font-size: 20px;
-		padding: 10px;
-	}
-}
-
-.btn-close{
-	background-color: #c34424c2;
-	color: #e2d5ba;
-}
-
-/*-------- Form*/
-.form-center{
-	display: block;
-	max-width: 40%;
-	margin: auto;
-}
-
-@media only screen and (max-width: 768px) {
-	.form-center{
-		display: block;
-		max-width: 90%;
-		margin: auto;
-	}
-}
-
-.form-style{
-	background-color: rgba(0, 0, 0, 0.7);
-	margin: auto;
-	padding: 20px;
-	border-radius: 10%;
-}
-
-.form-style label{
-	color: #E2D5BA;
-	font-weight: 800;
-	font-size: 20px;
-	margin-top: 5px;
-	padding-left: 10px;
+#artist-songs li{
+    list-style: none;
 }
 
